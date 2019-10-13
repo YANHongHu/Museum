@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/layout.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/ui-component.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+<title>无标题文档</title>
+</head>
+<body>
+<div id="top" class="top">
+		<div class="wrap">
+			<p class="call">留言访问QQ：285739499</p>
+			<p class="welcome">欢迎来中国古代服装博物馆网络平台&nbsp;请&nbsp;
+			<a href="login.html">登录</a>
+			<a href="v">注册</a>
+			&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="#">帮助中心</a>
+			</p>
+		</div>
+	</div>
+<div class="contbg">
+		    <div class="at-center">
+		        <div class="wh">当前位置：<a href="http://www.njmuseum.com/">首页</a>&gt;登陆&gt;用户登录
+                </div>
+		        <div class="cm-box">
+		        	<h3 class="cm-title">登陆</h3>
+		            <div class="login-row">
+		            <form name="form" id="form" action="/reservation/user/outSingle/loginSingle.do" method="post" novalidate>
+							    <input name="token" type="hidden" value="a37b8844-b9e1-4021-8ae4-033ce0438ea1">
+		            	<div class="login-left">
+		                    <div class="login-item">
+		                    	<label class="label-text">手机号码：</label>
+		                      <div class="tipinfo"><input name="telephone" class="input-text" id="telephone" type="number"></div>
+		                    </div>
+		                    <div class="login-item">
+		                    	<label class="label-text">登录密码：</label>
+		                        <div class="tipinfo"><input name="password" class="input-text" id="password" type="password"></div>
+		                    </div>
+		                    <div class="login-item">
+		                    	<label class="label-text">验证码：</label>
+		                        <div class="tipinfo">
+		                        	<input name="code" class="input-text code-input" id="code" type="text">
+                                    <img title="点击换一张" id="checkNumImage" style="cursor: pointer; vertical-align: middle; height: 33px;" onclick="changeCheckNum()" src="/reservation/static/image.jsp">
+		                        </div>
+		                    </div>
+		                    <div class="repwdbox"><a class="repwd" href="/reservation/user/outSingle/forgetSinglePWD.do">忘记密码？</a></div>
+		                	<div class="login-itemmsg" id="msg"></div>
+		                    <div class="login-item login-itembtn">
+		                    	<input class="login-btn" type="submit" value="登录"><br>
+		                        <a class="reuser" href="/reservation/user/outSingle/toRegisterSingle.do">注册新用户</a>
+		                    </div>
+		                </div>
+		            	<div class="login-right">
+		            		
+		            </form>
+		            </div>
+		        </div>
+		    </div>
+	</div>
+
+</body>
+</html>

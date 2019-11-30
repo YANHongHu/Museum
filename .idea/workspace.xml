@@ -2,13 +2,230 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ba26b55-0f77-4f56-8993-f76eb950feb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/css/exhibit.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/css/retstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Museum01/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Museum01/migrations/0002_auto_20191121_1818.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Museum01/migrations/0003_user_identity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Museum01/migrations/0004_auto_20191123_2113.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Museum01/migrations/0005_remove_user_identity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/flaticon/backup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/flaticon/font/Flaticon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/flaticon/font/Flaticon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/flaticon/font/Flaticon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/flaticon/font/Flaticon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/flaticon/font/_flaticon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/flaticon/font/flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/flaticon/font/flaticon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/flaticon/license/license.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/fontawesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/fontawesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/fontawesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/fontawesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/fontawesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/fontawesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/ionicons/cheatsheet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/ionicons/css/ionicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/ionicons/css/ionicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/ionicons/fonts/ionicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/ionicons/fonts/ionicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/ionicons/fonts/ionicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/fonts/ionicons/fonts/ionicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ifeels_bootstrap_jquery/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ifeels_bootstrap_jquery/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ifeels_bootstrap_jquery/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ifeels_bootstrap_jquery/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ifeels_bootstrap_jquery/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ifeels_bootstrap_jquery/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ifeels_bootstrap_jquery/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ifeels_bootstrap_jquery/jquery-3.4.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ifeels_bootstrap_jquery/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/clothes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/museum.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jquery-migrate-3.0.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jquery.stellar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jquery.waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Museum.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Museum.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Museum/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Museum/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Museum01/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Museum01/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Museum01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Museum01/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/css/exhibit.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/exhibit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/css/retstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/retstyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/css/ui-component.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/ui-component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/exhibit.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/exhibit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/html-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/img/b1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/b1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/img/bg-department.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/bg-department.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/img/bg-menu.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/bg-menu.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/img/button-now.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/button-now.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/img/footer-logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/footer-logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/img/footer-split.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/footer-split.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/img/icon-arrow-right.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon-arrow-right.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/img/icon-call.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon-call.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/img/icon-go-up.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon-go-up.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/img/icon-help.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon-help.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/img/icon-info.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon-info.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/img/icon-menu.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon-menu.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/img/icon-pagination-arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon-pagination-arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/img/icon-pagination-go.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon-pagination-go.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/img/icon-scheduling-left.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon-scheduling-left.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/img/icon-scheduling-right.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon-scheduling-right.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/img/icon-tel.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon-tel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/img/icon-web.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/icon-web.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/img/list-blue.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/list-blue.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/img/list-yellow.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/list-yellow.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/img/logo1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/logo1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/img/logo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/logo2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/img/t1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/t1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/img/t2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/t2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/img/t3.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/t3.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/img/ui-search.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/ui-search.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/img/ui-slider-arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/ui-slider-arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/img/ui-slider-process.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/ui-slider-process.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/jquery-1.7.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/jquery-1.7.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/ui.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/retrieval.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/retrieval.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/actions.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/actions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/app_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/app_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/auth/user/add_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/auth/user/add_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/auth/user/change_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/auth/user/change_password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/base_site.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/base_site.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/change_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/change_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/change_form_object_tools.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/change_form_object_tools.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/change_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/change_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/change_list_object_tools.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/change_list_object_tools.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/change_list_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/change_list_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/date_hierarchy.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/date_hierarchy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/delete_confirmation.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/delete_confirmation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/delete_selected_confirmation.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/delete_selected_confirmation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/edit_inline/stacked.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/edit_inline/stacked.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/edit_inline/tabular.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/edit_inline/tabular.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/filter.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/filter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/includes/fieldset.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/includes/fieldset.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/includes/object_delete_summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/includes/object_delete_summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/invalid_setup.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/invalid_setup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/object_history.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/object_history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/pagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/pagination.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/popup_response.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/popup_response.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/prepopulated_fields_js.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/prepopulated_fields_js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/search_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/search_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/submit_line.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/submit_line.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/widgets/clearable_file_input.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/widgets/clearable_file_input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/widgets/foreign_key_raw_id.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/widgets/foreign_key_raw_id.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/widgets/many_to_many_raw_id.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/widgets/many_to_many_raw_id.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/widgets/radio.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/widgets/radio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/widgets/related_widget_wrapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/widgets/related_widget_wrapper.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/widgets/split_datetime.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/widgets/split_datetime.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/widgets/url.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/admin/widgets/url.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/registration/logged_out.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/registration/logged_out.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/registration/password_change_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/registration/password_change_done.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/registration/password_change_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/registration/password_change_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/registration/password_reset_complete.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/registration/password_reset_complete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/registration/password_reset_confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/registration/password_reset_confirm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/registration/password_reset_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/registration/password_reset_done.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/registration/password_reset_email.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/registration/password_reset_email.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/registration/password_reset_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admin/templates/registration/password_reset_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admindocs/templates/admin_doc/bookmarklets.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admindocs/templates/admin_doc/bookmarklets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admindocs/templates/admin_doc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admindocs/templates/admin_doc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admindocs/templates/admin_doc/missing_docutils.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admindocs/templates/admin_doc/missing_docutils.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admindocs/templates/admin_doc/model_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admindocs/templates/admin_doc/model_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admindocs/templates/admin_doc/model_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admindocs/templates/admin_doc/model_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admindocs/templates/admin_doc/template_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admindocs/templates/admin_doc/template_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admindocs/templates/admin_doc/template_filter_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admindocs/templates/admin_doc/template_filter_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admindocs/templates/admin_doc/template_tag_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admindocs/templates/admin_doc/template_tag_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admindocs/templates/admin_doc/view_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admindocs/templates/admin_doc/view_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admindocs/templates/admin_doc/view_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/admindocs/templates/admin_doc/view_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/templates/auth/widgets/read_only_password_hash.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/templates/auth/widgets/read_only_password_hash.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/templates/gis/admin/openlayers.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/templates/gis/admin/openlayers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/templates/gis/admin/osm.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/templates/gis/admin/osm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/templates/gis/openlayers-osm.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/templates/gis/openlayers-osm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/templates/gis/openlayers.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/gis/templates/gis/openlayers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/jinja2/postgres/widgets/split_array.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/jinja2/postgres/widgets/split_array.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/templates/postgres/widgets/split_array.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/postgres/templates/postgres/widgets/split_array.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/attrs.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/attrs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/checkbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/checkbox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/checkbox_option.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/checkbox_option.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/checkbox_select.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/checkbox_select.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/clearable_file_input.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/clearable_file_input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/date.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/date.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/datetime.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/datetime.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/email.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/email.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/file.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/file.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/hidden.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/hidden.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/input_option.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/input_option.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/multiple_hidden.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/multiple_hidden.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/multiple_input.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/multiple_input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/multiwidget.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/multiwidget.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/number.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/number.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/password.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/radio.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/radio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/radio_option.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/radio_option.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/select.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/select.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/select_date.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/select_date.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/select_option.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/select_option.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/splitdatetime.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/splitdatetime.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/splithiddendatetime.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/splithiddendatetime.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/textarea.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/textarea.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/time.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/time.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/url.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/jinja2/django/forms/widgets/url.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/attrs.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/attrs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/checkbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/checkbox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/checkbox_option.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/checkbox_option.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/checkbox_select.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/checkbox_select.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/clearable_file_input.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/clearable_file_input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/date.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/date.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/datetime.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/datetime.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/email.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/email.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/file.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/file.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/hidden.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/hidden.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/input_option.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/input_option.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/multiple_hidden.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/multiple_hidden.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/multiple_input.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/multiple_input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/multiwidget.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/multiwidget.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/number.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/number.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/password.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/radio.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/radio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/radio_option.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/radio_option.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/select.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/select.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/select_date.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/select_date.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/select_option.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/select_option.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/splitdatetime.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/splitdatetime.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/splithiddendatetime.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/splithiddendatetime.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/textarea.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/textarea.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/time.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/time.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/url.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/templates/django/forms/widgets/url.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/views/templates/default_urlconf.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/views/templates/default_urlconf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/views/templates/technical_404.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/views/templates/technical_404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/views/templates/technical_500.html" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/views/templates/technical_500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/w32.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/w32.exe" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,19 +244,43 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="museum" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="museum" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="museum" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="museum: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1Rn0fCidHUJcbcbAtC6eXO4Uoh0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LSDProjectManagementSystem" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/Ifells-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -48,17 +289,22 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\工作\项目\Museum\static\img" />
+      <recent name="F:\工作\项目\Museum\static" />
+      <recent name="F:\工作\项目\Museum\templates" />
+      <recent name="C:\Users\10783\PycharmProjects\Museum\templates\css" />
+      <recent name="C:\Users\10783\PycharmProjects\Museum\templates" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\工作\项目\Museum\static" />
+      <recent name="F:\工作\项目\Museum\static\css" />
       <recent name="C:\Users\10783\PycharmProjects\Museum\templates\img" />
       <recent name="C:\Users\10783\PycharmProjects\Museum\templates" />
       <recent name="C:\Users\10783\PycharmProjects\Museum" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\10783\PycharmProjects\Museum\templates\css" />
-      <recent name="C:\Users\10783\PycharmProjects\Museum\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -82,7 +328,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="Museum.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\asus\AppData\Local\Programs\Python\Python37\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -98,6 +344,26 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@600249c3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@600249c3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@5f91cbce" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -119,6 +385,23 @@
       <workItem from="1570948453967" duration="217000" />
       <workItem from="1571135184657" duration="1997000" />
       <workItem from="1571301356139" duration="10542000" />
+      <workItem from="1572396861792" duration="4400000" />
+      <workItem from="1573100474439" duration="1934000" />
+      <workItem from="1573104953839" duration="1645000" />
+      <workItem from="1573205127858" duration="8308000" />
+      <workItem from="1573490313964" duration="8180000" />
+      <workItem from="1573799121071" duration="4024000" />
+      <workItem from="1573803255533" duration="838000" />
+      <workItem from="1573808081416" duration="2033000" />
+      <workItem from="1573810548116" duration="2968000" />
+      <workItem from="1573819765142" duration="1109000" />
+      <workItem from="1573820902251" duration="5998000" />
+      <workItem from="1574235965419" duration="208000" />
+      <workItem from="1574236285362" duration="621000" />
+      <workItem from="1574239332991" duration="129000" />
+      <workItem from="1574326656913" duration="8839000" />
+      <workItem from="1574348089160" duration="3898000" />
+      <workItem from="1574501851968" duration="7089000" />
     </task>
     <servers />
   </component>
@@ -137,6 +420,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/PycharmProjects/TEST/venv/Lib/site-packages/django/db/backends/mysql/base.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>

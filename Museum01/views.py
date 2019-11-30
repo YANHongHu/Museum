@@ -13,22 +13,15 @@ from Museum01 import models
 
 # 登录函数
 def login(request):
-    response = {}
     if request.method == "GET":
-        return HttpResponse('OK')
+        return render(request, 'login.html')
     elif request.method == 'POST':
         # 获取用户名和密码
-        body = json.loads(request.body)
-        name = body['user_name']
-        password = body['password']
-
+        name = request.POST.get('user_name')
+        password = request.POST.get('password')
         # 尝试在用户表中查找此用户,若不存在则返回错误信息
-        try:
-            user = models.User.objects.get(user_name=name)
-        except Exception:
-            response['status'] = False
-            return JsonResponse(data=response, safe=False)
-        else:
+        user = models.User.objects.get(user_name=name)
+        if user:
             # 存在则进行密码匹配，取出随机字符串
             s = models.UserStr.objects.filter(user_name=name)[0].str
             # 创建MD5对象
@@ -39,21 +32,16 @@ def login(request):
             new_password_md5 = m.hexdigest()
             # 如果密码正确进行身份判断，错误则返回错误信息
             if new_password_md5 == user.password:
-                if user.authority == "boss":
+                if user.authority == "root":
                     request.session['user_name'] = name
-                    response['status'] = True
-                    response['identity'] = 'boss'
-                    return JsonResponse(data=response, safe=False)
+                    return render(request, 'home.html')
                 else:
                     request.session['user_name'] = name
-                    response['status'] = True
-                    response['identity'] = 'salesman'
-
-                    return JsonResponse(data=response, safe=False)
+                    return render(request, 'home_root.html')
             else:
-                response['status'] = False
-                return JsonResponse(data=response, safe=False)
-
+                pass
+        else:
+            return render(request, 'login.html', {'message': '此用户不存在'})
 
 # 用户注册
 def add_users(request):

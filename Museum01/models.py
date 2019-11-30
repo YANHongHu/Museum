@@ -29,14 +29,22 @@ class Costume(models.Model):
 #     media_name = models.CharField(verbose_name="资源名称", max_length=32)
 #     describe = models.CharField(verbose_name="资源描述", max_length=256)
 
+# 图片资源表
+class Image(models.Model):
+    img_id = models.AutoField(verbose_name="图片资源id，自增", primary_key=True)
+    img_name = models.CharField(verbose_name="图片资源名称", max_length=32)
+    describe = models.CharField(verbose_name="资源描述", max_length=256)
+    costume_name = models.CharField(verbose_name="所属服装", max_length=32)
+    url_img = models.CharField(verbose_name="图片文件路径", max_length=128, default='/static/img/clothes.jpg')
+
 
 # 音频资源表
 class MP3(models.Model):
     mp3_id = models.AutoField(verbose_name="音频资源id，自增", primary_key=True)
     mp3_name = models.CharField(verbose_name="音频资源名称", max_length=32)
     describe = models.CharField(verbose_name="资源描述", max_length=256)
-    costume_id = models.ForeignKey(verbose_name="所属服装", to='Costume', to_fields='cs_id', on_delete=models.CASCADE)
-    url_mp3 = models.CharField(verbose_name="音频的url", max_length=128)
+    costume_name = models.CharField(verbose_name="所属服装", max_length=32)
+    url_mp3 = models.CharField(verbose_name="音频文件路径", max_length=128)
 
 
 # 视频资源表
@@ -44,8 +52,8 @@ class MP4(models.Model):
     mp4_id = models.AutoField(verbose_name="视频资源id，自增", primary_key=True)
     mp4_name = models.CharField(verbose_name="音频资源名称", max_length=32)
     describe = models.CharField(verbose_name="资源描述", max_length=256)
-    costume_id = models.ForeignKey(verbose_name="所属服装", to='Costume', to_fields='cs_id', on_delete=models.CASCADE)
-    url_mP4 = models.CharField(verbose_name="视频的url", max_length=128)
+    costume_name = models.CharField(verbose_name="所属服装", max_length=32)
+    url_mP4 = models.CharField(verbose_name="视频文件路径", max_length=128)
 
 
 # VR资源表
@@ -53,8 +61,8 @@ class VR(models.Model):
     vr_id = models.AutoField(verbose_name="VR资源id，自增", primary_key=True)
     vr_name = models.CharField(verbose_name="音频资源名称", max_length=32)
     describe = models.CharField(verbose_name="资源描述", max_length=256)
-    costume_id = models.ForeignKey(verbose_name="所属服装", to='Costume', to_fields='cs_id', on_delete=models.CASCADE)
-    url_vr = models.CharField(verbose_name="vr的url", max_length=128)
+    costume_name = models.CharField(verbose_name="所属服装", max_length=32)
+    url_vr = models.CharField(verbose_name="vr文件路径", max_length=128)
 
 
 # User_str用户密文表
@@ -62,3 +70,4 @@ class UserStr(models.Model):
     userStr_id = models.IntegerField(verbose_name="主键", primary_key=True)
     user_name = models.CharField(verbose_name="用户名称", max_length=16, null=True, unique=True)
     str = models.CharField(verbose_name="加密字符串", max_length=10, null=True)
+

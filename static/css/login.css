@@ -1,10 +1,10 @@
 body {
-	font-family: "Microsoft YaHei","SimSun","宋体",Tahoma,Helvetica,Arial,Verdana;
+	font-family: "Microsoft YaHei", "SimSun", "宋体", Tahoma, Helvetica, Arial, Verdana, serif;
 	font-size: 14px;
 	color: #333333;
 }
 html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, textarea, img, div {
-	margin: center;
+	margin: auto;
 	padding: 0;
 }
 .contbg {
@@ -19,7 +19,7 @@ html, body {
 	height: 100%;
 }
 .at-center {
-	width: 1020px;
+	width: 100%;
 	height: auto !important;
 	min-height: 600px;
 	margin: auto;
@@ -41,13 +41,13 @@ html, body {
 	color: #000;
 	text-align: center;
 }
-.login-row {
-	width: 400px;
-	height: auto;
-	min-height: 400px;
-	margin: 0 auto;
-	padding-top: 40px;
-}
+/*.login-row {*/
+/*	width: 400px;*/
+/*	height: auto;*/
+/*	min-height: 400px;*/
+/*	margin: 0 auto;*/
+/*	padding-top: 40px;*/
+/*}*/
 .login-left {
 	width: 100%;
 	padding-top: 20px;

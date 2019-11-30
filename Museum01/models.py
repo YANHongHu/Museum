@@ -7,6 +7,7 @@ class User(models.Model):
     user_id = models.AutoField(verbose_name="用户_id, 自增", primary_key=True)
     user_name = models.CharField(verbose_name="用户名", max_length=16)
     password = models.CharField(verbose_name="密码+MD5加密", max_length=32)
+    telephone = models.CharField(verbose_name="电话", max_length=11, unique=True, default="")
     authority = models.CharField(verbose_name="权限", max_length=20, default="")
 
 
@@ -67,7 +68,7 @@ class VR(models.Model):
 
 # User_str用户密文表
 class UserStr(models.Model):
-    userStr_id = models.IntegerField(verbose_name="主键", primary_key=True)
+    userStr_id = models.AutoField(verbose_name="主键", primary_key=True)
     user_name = models.CharField(verbose_name="用户名称", max_length=16, null=True, unique=True)
     str = models.CharField(verbose_name="加密字符串", max_length=10, null=True)
 

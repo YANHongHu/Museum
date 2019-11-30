@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>登录</title>
+    <title>注册</title>
+
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900" rel="stylesheet">
@@ -83,12 +84,9 @@
             right: 0;
             bottom: 0;
         }
-
-
     </style>
 </head>
 <body>
-
 <header role="banner" class="index80">
     <nav class="navbar navbar-expand-md navbar-dark bg-light">
         <div class="container" style="max-width: 100%;">
@@ -118,10 +116,10 @@
                 </ul>
                 <ul class="navbar-nav absolute-right">
                     <li class="nav-item ">
-                        <a href="/login" class="nav-link paddingleft9 active">管理员登录</a>
+                        <a href="/login" class="nav-link paddingleft9 ">管理员登录</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/register" class="nav-link paddingleft9">注册</a>
+                        <a href="/register" class="nav-link paddingleft9 active ">注册</a>
                     </li>
                 </ul>
 
@@ -140,21 +138,29 @@
         <div class="row align-items-center site-hero-inner justify-content-center">
             <div class="panel panel-default my-width">
                 <div class="panel-body ">
-                    <form action="/login/" method="post" class="form-horizontal login-window-style">
-                        <div class="login-style" style="margin-left: 121px;"><p>登录选项</p></div>
+                    <form action="/register/" method="post" class="form-horizontal login-window-style">
+                        <div class="login-style" style=" margin-left: 141px;"><p>注册</p></div>
                         {% csrf_token %}
                         <div class="row">
                             <div class="col-md-12 form-group">
 
-                                <label for="name1">电话</label>
-                                <input type="text" name="telephone" id="name1" class="form-control "
+                                <label for="name1">用户名</label>
+                                <input type="text" name="user_name" id="name1" class="form-control "
+                                       style="border-radius: 6px;">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+
+                                <label for="name2">电话</label>
+                                <input type="text" name="telephone" id="name2" class="form-control "
                                        style="border-radius: 6px;">
                             </div>
                         </div>
                         <div class="row mb-5" style="margin-bottom: 14px!important;">
                             <div class="col-md-12 form-group">
-                                <label for="name2">密码</label>
-                                <input type="password" name="password" id="name2" class="form-control "
+                                <label for="name3">密码</label>
+                                <input type="password" name="password" id="name3" class="form-control "
                                        style="border-radius: 6px;">
                                 <span style="color: red">{{ message }}</span>
                             </div>
@@ -162,16 +168,15 @@
 
                         <div class="row">
                             <div class="col-md-12  btn-block ">
-                                <input type="submit" value="登录" class="btn btn-primary btn-block"
+                                <input type="submit" value="注册" class="btn btn-primary btn-block"
                                        style="height: 40px;line-height: 10px; border-radius:6px;">
                             </div>
                         </div>
                     </form>
-
                 </div>
 
                 <div class="mb-5 element-animate">
-                    <h1>登录</h1>
+                    <h1>注册</h1>
                 </div>
             </div>
         </div>

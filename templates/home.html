@@ -84,17 +84,17 @@
 					<div class="ui-menu-item clearfix">
 						
                         <a href="#1" class="ui-menu-item-department">先秦</a>
-						<a href="#2" class="ui-menu-item-disease">春秋</a>
-						<a href="#3" class="ui-menu-item-disease">战国</a>
+						<a href="#2" class="ui-menu-item-disease"> 商 周</a>
+						<a href="#3" class="ui-menu-item-disease">夏</a>
 
 						<div class="ui-menu-item-detail" >
 							<div class="ui-menu-item-detail-group">
 								<div class="ui-menu-item-detail-group-caption">先秦</div>
 									<div class="ui-menu-item-detail-group-list">
-										<a href="#1">原始社会</a>
-										<a href="#1">夏朝</a>
-										<a href="#1">商朝</a>
-										<a href="#1">周朝</a>
+                                            <a href="#" id="title1" >原始社会</a>
+                                            <a href="#1">夏朝</a>
+                                            <a href="#1">商朝</a>
+                                            <a href="#1">周朝</a>
 									</div>
 							</div>                 
 						</div>
@@ -450,10 +450,17 @@
 		</div>
 	</div>
 	<a href="#0" class="go-top"></a>
-	<script type="text/javascript" src="../static/js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="../static/js/jquery-1.7.1.min.js">
+        $(function () {
+            $("#title1").live("click", function () {
+                $.ajax({
+                    type:'GET',
+                    url:'home',
+                    data:{ "dynasty":$("#title1").text().trim()},
+                })
+            })
+        })
+    </script>
 	<script type="text/javascript" src="../static/js/ui.js"></script>
 </body>
 </html>
-<SCRIPT Language=VBScript><!--
-
-//--></SCRIPT>

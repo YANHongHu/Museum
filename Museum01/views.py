@@ -84,3 +84,7 @@ def home(request):
         session_nam = request.session.get('user_name')
         if not session_nam:
             return HttpResponse('/login')
+
+
+def find_cloth(request):
+    pass

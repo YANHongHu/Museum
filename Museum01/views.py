@@ -90,5 +90,5 @@ def find_cloth(request):
     pass
 
 
-def search(request):
+def search_cloth(request):
     pass

@@ -88,3 +88,7 @@ def home(request):
 
 def find_cloth(request):
     pass
+
+
+def search(request):
+    pass

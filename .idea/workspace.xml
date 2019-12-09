@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ba26b55-0f77-4f56-8993-f76eb950feb3" name="Default Changelist" comment="" />
+    <list default="true" id="2ba26b55-0f77-4f56-8993-f76eb950feb3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,6 +184,7 @@
       <workItem from="1575390018893" duration="676000" />
       <workItem from="1575557682779" duration="3593000" />
       <workItem from="1575689510712" duration="138000" />
+      <workItem from="1575897151853" duration="7563000" />
     </task>
     <task id="LOCAL-00001" summary="修改了登录页面">
       <created>1575105813867</created>

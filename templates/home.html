@@ -1,17 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>古代服装博物馆网络平台</title>
-	<link rel="stylesheet" type="text/css" href="../static/css/layout.css">
-	<link rel="stylesheet" type="text/css" href="../static/css/base.css">
-	<link rel="stylesheet" type="text/css" href="../static/css/ui-component.css">
+    <meta charset="UTF-8">
+    <title>中国古代服饰博物馆</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900" rel="stylesheet">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="../static/css/bootstrap.css">
+    <link rel="stylesheet" href="../static/css/animate.css">
+    <link rel="stylesheet" href="../static/css/owl.carousel.min.css">
+
+    <link rel="stylesheet" href="../static/fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="../static/fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="..">
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="../static/css/style.css">
+
+    <style>
+        html,body{height: 100%;width: 100%;margin:0;padding:0;}
+        body {
+            width: 100%;
+            height: 100%;
+            background-size: 100% 100%;
+            position: absolute;
+            -moz-background-size: 100% 100%;
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='museum.png');
+            background: url() no-repeat fixed center 0;
+            -webkit-background-size: cover;
+            -o-background-size: cover;
+        }
+
+        .index60 {
+            z-index: 60;
+        !important;
+        }
+
+        .index80 {
+            z-index: 80;
+        !important;
+        }
+
+        .form-group {
+            margin-bottom: 0;
+        }
+
+        .btn-primary {
+            background: linear-gradient(215deg, #546e7a, #37474f);
+        }
+
+        .btn.btn-primary {
+            color: #fff;
+            border-width: 0;
+        }
+
+        .login-window-style {
+            background-color: #eeeeee;
+            width: 400px;
+            padding: 40px;
+            margin-top: 150px;
+            border-radius: 3%;
+        }
+
+        .navbar {
+            right: 0;
+        }
+
+        .login-style {
+            font-size: 20px;
+        }
+
+        .zhezhao{
+            position: fixed;
+            content: "";
+            background: rgba(0, 123, 255, 0.04);
+            width: 100%;
+            height: 100%;
+            z-index: 4;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+
+    </style>
 </head>
 
 <body>
-    <header role="banner" class="index80">
-    <nav class="navbar navbar-expand-md navbar-dark bg-light">
-        <div class="container" style="max-width: 100%;">
+   <header role="banner" class="index80">
+    <nav class="navbar navbar-expand-md navbar-dark bg-light" style="padding-left: 0px;padding-right: 0px;">
+        <div class="container" style="max-width: 100%; background: #1b1e21">
             <a class="navbar-brand absolute" href="https://www.ifeels.cn">中国古代服饰博物馆</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05"
                     aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,7 +101,7 @@
             <div class="collapse navbar-collapse navbar-light" id="navbarsExample05">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a class="paddingleft9 nav-link fon" href="#">主页</a>
+                        <a class="paddingleft9 nav-link fon active" href="#">主页</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link paddingleft9" href="#">朝代</a>
@@ -38,7 +118,7 @@
                 </ul>
                 <ul class="navbar-nav absolute-right">
                     <li class="nav-item ">
-                        <a href="/login" class="nav-link paddingleft9 active">管理员登录</a>
+                        <a href="/login" class="nav-link paddingleft9">管理员登录</a>
                     </li>
                     <li class="nav-item">
                         <a href="/register" class="nav-link paddingleft9">注册</a>
@@ -49,6 +129,49 @@
         </div>
     </nav>
 </header>
+<!-- END header -->
+       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+       <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="../static/img/museum.png" alt="...">
+                    <div class="carousel-caption">
+                    ...
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="../static/img/clothes.jpg" alt="...">
+                    <div class="carousel-caption">
+                    ...
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="../static/img/b1.png" alt="...">
+                    <div class="carousel-caption">
+                    ...
+                    </div>
+                </div>
+            </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+   </div>
+
+
+   <!--
 	<div id="top" class="top">
 		<div class="wrap">
 			<p class="call">留言访问QQ：285739499</p>
@@ -82,7 +205,7 @@
 				<div class="menu-list ui-menu">
 
 					<div class="ui-menu-item clearfix">
-						
+
                         <a href="#1" class="ui-menu-item-department">先秦</a>
 						<a href="#2" class="ui-menu-item-disease"> 商 周</a>
 						<a href="#3" class="ui-menu-item-disease">夏</a>
@@ -96,11 +219,11 @@
                                             <a href="#1">商朝</a>
                                             <a href="#1">周朝</a>
 									</div>
-							</div>                 
+							</div>
 						</div>
 					</div>
 					<div class="ui-menu-item clearfix">
-						
+
                         <a href="#1" class="ui-menu-item-department">秦汉</a>
 						<a href="#2" class="ui-menu-item-disease">秦朝</a>
 						<a href="#3" class="ui-menu-item-disease">汉朝</a>
@@ -121,9 +244,9 @@
 									<div class="ui-menu-item-detail-group-list">
 										<a href="#1">秦朝官服</a>
 										<a href="#1">精品汉服</a>
-					
+
 									</div>
-							</div>						
+							</div>
 						</div>
 					</div>
                     	<div class="ui-menu-item clearfix">
@@ -144,16 +267,16 @@
 								<div class="ui-menu-item-detail-group-caption">精品展示</div>
 
 									<div class="ui-menu-item-detail-group-list">
-										<a href="#1">官服</a>					
+										<a href="#1">官服</a>
 									</div>
 
 							</div>
-							
+
 						</div>
 
 					</div>
                     <div class="ui-menu-item clearfix">
-						
+
                         <a href="#1" class="ui-menu-item-department">隋唐</a>
                         <a href="#2" class="ui-menu-item-disease">隋朝</a>
                         <a href="#3" class="ui-menu-item-disease">唐朝</a>
@@ -174,16 +297,16 @@
 									<div class="ui-menu-item-detail-group-list">
 										<a href="#1">唐朝官服</a>
 										<a href="#1">唐代女子精品</a>
-					
+
 									</div>
 
 							</div>
-							
+
 						</div>
 
 					</div>
                     <div class="ui-menu-item clearfix">
-						
+
                         <a href="#1" class="ui-menu-item-department">五代宋元</a>
 						<a href="#2" class="ui-menu-item-disease">宋朝</a>
 						<a href="#3" class="ui-menu-item-disease">元朝</a>
@@ -196,7 +319,7 @@
 									<div class="ui-menu-item-detail-group-list">
 										<a href="#1">五代</a>
 										<a href="#1">辽</a>
-                                        <a href="#1">宋朝</a>         
+                                        <a href="#1">宋朝</a>
                                         <a href="#1">元朝</a>
 									</div>
 							</div>
@@ -205,17 +328,17 @@
 
 									<div class="ui-menu-item-detail-group-list">
 										<a href="#1">宋朝官服</a>
-									
-					
+
+
 									</div>
 
 							</div>
-							
+
 						</div>
 
 					</div>
                     <div class="ui-menu-item clearfix">
-						
+
                         <a href="#1" class="ui-menu-item-department">明清</a>
 						<a href="#2" class="ui-menu-item-disease">明朝</a>
 						<a href="#3" class="ui-menu-item-disease">宋朝</a>
@@ -236,29 +359,29 @@
 									<div class="ui-menu-item-detail-group-list">
 										<a href="#1">明朝官服</a>
 										<a href="#1">清朝精品</a>
-					
+
 									</div>
 
 							</div>
-							
+
 						</div>
 
 					</div>
-                    
+
 				</div>
 			</div>
-            
-            
+
+
 			<a href="#6" class="link">精品展示</a>
 			<a href="#6" class="link">朝代浏览</a>
 			<a href="#6" class="link">部件浏览</a>
 			<a href="#6" class="link">最新公告</a>
-	
+
 		</div>
 	</div>
 	<div id="banner" class="banner clearfix">
 		<div class="banner-slider ui-slider">
-			
+
 			<div class="ui-slider-wrap clearfix">
 				<a href="" class="item"><img src="../static/img/t1.png" alt="banner-1"></a>
 				<a href="" class="item"><img src="../static/img/t2.png" alt="banner-2"></a>
@@ -299,13 +422,13 @@
 			</div>
 		</div>
 	</div>
-    
-    
+
+
 	<div id="content" class="content">
 		<div class="wrap clearfix">
-			
+
 			<div class="content-tab">
-				
+
 				<div class="caption clearfix">
 					<a href="#7" class="item item_focus">朝代特色</a>
 					<a href="#7" class="item">精品展示</a>
@@ -326,8 +449,8 @@
 							<a href="#8" class="block-capiton-item">明清</a>
 							<a href="#8" class="block-capiton-item">其他</a>
 						</div>
-						
-						<div class="block-wrap"><!--新增的-->
+
+						<div class="block-wrap">
 
 							<div class="block-content">
 
@@ -357,10 +480,10 @@
 										<div class="item-phone">时代</div>
 										<div class="item-address">部件..</div>
 									</div>
-									
+
 								</div>
-                                
-                                
+
+
 
 								<div class="block-text-list clearfix">
 									<a href="#9" class="item">魏晋南北朝时期女子服饰 <span class="level">【先秦】</span></a>                           <a href="#9" class="item">魏晋南北朝时期女子服饰 <span class="level">【先秦】</span></a>							<a href="#9" class="item">魏晋南北朝时期女子服饰 <span class="level">【先秦】</span></a>							<a href="#9" class="item">魏晋南北朝时期女子服饰 <span class="level">【先秦】</span></a>							<a href="#9" class="item">魏晋南北朝时期女子服饰 <span class="level">【先秦】</span></a>							<a href="#9" class="item">魏晋南北朝时期女子服饰 <span class="level">【先秦】</span></a>
@@ -369,9 +492,9 @@
 								<a href="#" class="block-more">更多</a>
 							</div>
 						</div>
-                        
-						<div class="block-wrap" style="display: none;"><!--新增的-->
-                        
+
+						<div class="block-wrap" style="display: none;">
+
 							<div class="block-content">
 								<div class="block-list clearfix">
 
@@ -399,10 +522,10 @@
 										<div class="item-phone">时代</div>
 										<div class="item-address">部件..</div>
 									</div>
-									
+
 								</div>
-                                
-                                
+
+
 
 								<div class="block-text-list clearfix">
 									<a href="#9" class="item">魏晋南北朝时期女子服饰 <span class="level">【先秦】</span></a>                           <a href="#9" class="item">魏晋南北朝时期女子服饰 <span class="level">【先秦】</span></a>							<a href="#9" class="item">魏晋南北朝时期女子服饰 <span class="level">【先秦】</span></a>							<a href="#9" class="item">魏晋南北朝时期女子服饰 <span class="level">【先秦】</span></a>							<a href="#9" class="item">魏晋南北朝时期女子服饰 <span class="level">【先秦】</span></a>							<a href="#9" class="item">魏晋南北朝时期女子服饰 <span class="level">【先秦】</span></a>
@@ -412,7 +535,7 @@
 							</div>
 						</div>
 					</div>
-		
+
 					<div class="item" style="display: none;">
 						精品展示
 					</div>
@@ -446,11 +569,12 @@
 	</div>
 	<div id="footer" class="footer">
 		<div class="wrap">
-			Copyright&nbsp;&copy;&nbsp;	
+			Copyright&nbsp;&copy;&nbsp;
 		</div>
 	</div>
 	<a href="#0" class="go-top"></a>
-    # 测试A标签传值
+    -->
+    <!--# 测试A标签传值-->
 	<script type="text/javascript" src="../static/js/jquery-1.7.1.min.js">
         $(function () {
             $("#title1").live("click", function () {

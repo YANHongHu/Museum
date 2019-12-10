@@ -2,9 +2,105 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ba26b55-0f77-4f56-8993-f76eb950feb3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Museum01/migrations/0008_costume_nation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/dist/js/jquery-3.4.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/IMG_9368.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/IMG_9374.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/IMG_9376.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/IMG_9377.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/banner1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/banner3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/故宫.雪.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/饰品.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/firstqin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/test_carousel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum01/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Museum01/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/exhibit.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/retstyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/ui-component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/flaticon/backup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/flaticon/font/Flaticon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/flaticon/font/Flaticon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/flaticon/font/Flaticon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/flaticon/font/Flaticon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/flaticon/font/_flaticon.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/flaticon/font/flaticon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/flaticon/font/flaticon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/flaticon/license/license.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/fontawesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/fontawesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/fontawesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/fontawesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/fontawesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/fontawesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/ionicons/cheatsheet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/ionicons/css/ionicons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/ionicons/css/ionicons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/ionicons/fonts/ionicons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/ionicons/fonts/ionicons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/ionicons/fonts/ionicons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/fonts/ionicons/fonts/ionicons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/ifeels_bootstrap_jquery/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/ifeels_bootstrap_jquery/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/ifeels_bootstrap_jquery/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/ifeels_bootstrap_jquery/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/ifeels_bootstrap_jquery/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/ifeels_bootstrap_jquery/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/ifeels_bootstrap_jquery/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/ifeels_bootstrap_jquery/jquery-3.4.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/ifeels_bootstrap_jquery/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/b1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-department.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/bg-menu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/button-now.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/footer-logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/footer-split.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icon-arrow-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icon-call.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icon-go-up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icon-help.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icon-info.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icon-menu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icon-pagination-arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icon-pagination-go.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icon-scheduling-left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icon-scheduling-right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icon-tel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/icon-web.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/list-blue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/list-yellow.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/t1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/t2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/民族服饰.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/t3.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/ui-search.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/ui-slider-arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/ui-slider-process.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery-3.2.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery-migrate-3.0.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery.stellar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/ui.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,17 +177,17 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\工作\项目\Museum\static\img" />
-      <recent name="F:\工作\项目\Museum\static" />
-      <recent name="F:\工作\项目\Museum\templates" />
-      <recent name="C:\Users\10783\PycharmProjects\Museum\templates\css" />
-      <recent name="C:\Users\10783\PycharmProjects\Museum\templates" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\工作\项目\Museum\static\dist\js" />
       <recent name="F:\工作\项目\Museum\static" />
       <recent name="F:\工作\项目\Museum\static\css" />
+      <recent name="F:\工作\项目\Museum\static\ifeels_bootstrap_jquery" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\工作\项目\Museum\static\img" />
+      <recent name="F:\工作\项目\Museum\static\css" />
+      <recent name="F:\工作\项目\Museum\static\js" />
+      <recent name="F:\工作\项目\Museum\static" />
       <recent name="C:\Users\10783\PycharmProjects\Museum\templates\img" />
-      <recent name="C:\Users\10783\PycharmProjects\Museum\templates" />
-      <recent name="C:\Users\10783\PycharmProjects\Museum" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -184,7 +280,12 @@
       <workItem from="1575390018893" duration="676000" />
       <workItem from="1575557682779" duration="3593000" />
       <workItem from="1575689510712" duration="138000" />
-      <workItem from="1575897151853" duration="7563000" />
+      <workItem from="1575897151853" duration="11690000" />
+      <workItem from="1575937559786" duration="2980000" />
+      <workItem from="1575942025899" duration="7576000" />
+      <workItem from="1575950261560" duration="10709000" />
+      <workItem from="1575966171166" duration="1568000" />
+      <workItem from="1575969046627" duration="14729000" />
     </task>
     <task id="LOCAL-00001" summary="修改了登录页面">
       <created>1575105813867</created>
@@ -221,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575689631671</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="HOME页面修改">
+      <created>1575907244755</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575907244755</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +354,8 @@
     <MESSAGE value="完成登录、注册功能的调试&#10;修改： 添加了注册页面" />
     <MESSAGE value="修改主页面a标签，尝试获取其内容" />
     <MESSAGE value="定义搜索方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="定义搜索方法" />
+    <MESSAGE value="HOME页面修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="HOME页面修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

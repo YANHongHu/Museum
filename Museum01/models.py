@@ -22,6 +22,7 @@ class Costume(models.Model):
     texture = models.CharField(verbose_name="纹理", max_length=32, null=True)
     dynasty = models.CharField(verbose_name="朝代", max_length=16, null=True)
     cs_sort = models.CharField(verbose_name="服装类别", max_length=32)
+    nation = models.CharField(verbose_name="民族", max_length=16, null=True)
 
 
 # # 多媒体资源表

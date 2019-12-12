@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ba26b55-0f77-4f56-8993-f76eb950feb3" name="Default Changelist" comment="重构home">
-      <change afterPath="$PROJECT_DIR$/Museum01/migrations/0009_auto_20191211_1757.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum01/migrations/0010_auto_20191211_1758.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/dynasty.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Museum/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum01/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Museum01/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Museum01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Museum01/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/firstqin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/firstqin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-    </list>
+    <list default="true" id="2ba26b55-0f77-4f56-8993-f76eb950feb3" name="Default Changelist" comment="完成服饰的动态显示，从数据调取" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +200,7 @@
       <workItem from="1576075592192" duration="4773000" />
       <workItem from="1576125959488" duration="5133000" />
       <workItem from="1576149322927" duration="3323000" />
-      <workItem from="1576158477705" duration="1990000" />
+      <workItem from="1576158477705" duration="2393000" />
     </task>
     <task id="LOCAL-00001" summary="修改了登录页面">
       <created>1575105813867</created>
@@ -261,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575993602341</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="完成服饰的动态显示，从数据调取">
+      <created>1576163184976</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576163184976</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +285,8 @@
     <MESSAGE value="定义搜索方法" />
     <MESSAGE value="HOME页面修改" />
     <MESSAGE value="重构home" />
-    <option name="LAST_COMMIT_MESSAGE" value="重构home" />
+    <MESSAGE value="完成服饰的动态显示，从数据调取" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成服饰的动态显示，从数据调取" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

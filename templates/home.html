@@ -39,7 +39,7 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">朝代 <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">先秦</a></li>
+            <li><a href="/xq_cloth">先秦</a></li>
             <li><a href="#">秦汉</a></li>
             <li><a href="#">隋唐</a></li>
             <li role="separator" class="divider"></li>
@@ -73,7 +73,7 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">用户中心 <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#loginModal" data-toggle="modal">管理员登录</a></li>
-            <li><a href="#registerModal"  data-toggle="modal">用户注册</a></li>
+            <li><a href="#registerModal"  data-toggle="modal">管理员注册</a></li>
             <li role="separator" class="divider"></li>
             <li><a href="#">联系我们</a></li>
           </ul>
@@ -83,55 +83,63 @@
   </div><!-- /.container-fluid -->
 </nav>
 </header>
-        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
-          <div class="modal-dialog" role="document">
+        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModal">
+          <div class="modal-dialog" role="document" style="margin-top: 200px; width: 400px">
             <div class="modal-content">
-              <div class="modal-header">
+              <div class="modal-header" style="padding-bottom: 10px; padding-top: 10px">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">New message</h4>
+                <h3  id="loginModal">管理员登录</h3>
               </div>
               <div class="modal-body">
-                <form>
+                <form action="/login/" method="post">
+                  {% csrf_token %}
                   <div class="form-group">
-                    <label for="recipient-name" class="control-label">Recipient:</label>
-                    <input type="text" class="form-control" id="recipient-name">
+                      <label for="telephone" class="control-label" style="margin-top: 20px">电话：</label>
+                      <input type="text" class="form-control" id="telephone" name="telephone" style="margin-top: 10px"/>
                   </div>
                   <div class="form-group">
-                    <label for="message-text" class="control-label">Message:</label>
-                    <textarea class="form-control" id="message-text"></textarea>
+                      <label for="password" class="control-label">密码：</label>
+                      <input  type="password" class="form-control"  name="password" id="password" style="margin-top: 10px"/>
+                      <span style="color: red">{{ message }}</span>
+                  </div>
+                  <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">取 消</button>
+                        <input type="submit" value="登 录" class="btn btn-primary">
                   </div>
                 </form>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Send message</button>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
-          <div class="modal-dialog" role="document">
+        <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModal">
+          <div class="modal-dialog" role="document" style="margin-top: 200px;width: 400px">
             <div class="modal-content">
-              <div class="modal-header">
+              <div class="modal-header" style="padding-bottom: 10px; padding-top: 10px">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">New message</h4>
+                <h3  id="registerModal">用户注册</h3>
               </div>
               <div class="modal-body">
-                <form>
+                <form action="/register/" method="post">
+                  {% csrf_token %}
                   <div class="form-group">
-                    <label for="recipient-name" class="control-label">Recipient:</label>
-                    <input type="text" class="form-control" id="recipient-name">
+                      <label for="user_name" class="control-label">用户名：</label>
+                      <input  type="text" class="form-control" name="user_name" id="user_name" style="margin-top: 10px"/>
                   </div>
                   <div class="form-group">
-                    <label for="message-text" class="control-label">Message:</label>
-                    <textarea class="form-control" id="message-text"></textarea>
+                    <label for="telephone" class="control-label">电话：</label>
+                    <input type="text" class="form-control" name="telephone" id="telephone" style="margin-top: 10px"/>
                   </div>
-                </form>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Send message</button>
+                  <div class="form-group">
+                    <label for="password" class="control-label">密码：</label>
+                    <input type="password" class="form-control"  name="password" id="password" style="margin-top: 10px"/>
+                    <span style="color: red">{{ message }}</span>
+                  </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">取 消</button>
+                        <input type="submit" value="注 册" class="btn btn-primary">
+                    </div>
+                 </form>
               </div>
             </div>
           </div>
@@ -175,9 +183,9 @@
             </a>
        </div>
        <div class="row">
-           <div class="col-sm-6 col-md-4">
+           <div class="col-sm-4 col-md-3">
                <div class="thumbnail">
-                   <img src="../static/img/饰品.jpg" style="width: 500px;height: 300px" alt="古风饰品">
+                   <img src="../static/img/饰品.jpg" style="width:350px; height: 210px" alt="古风饰品">
                    <div class="caption">
                        <h3>古风饰品</h3>
                        <p>...</p>
@@ -185,9 +193,9 @@
                    </div>
                </div>
            </div>
-           <div class="col-sm-6 col-md-4">
+           <div class="col-sm-4 col-md-3">
                <div class="thumbnail">
-                   <img src="../static/img/民族服饰.png" style="width: 500px;height: 300px" alt="古风饰品">
+                   <img src="../static/img/民族服饰.png" style="width:350px; height: 210px" alt="古风饰品">
                    <div class="caption">
                        <h3>精品展示</h3>
                        <p>...</p>
@@ -195,9 +203,9 @@
                    </div>
                </div>
            </div>
-           <div class="col-sm-6 col-md-4">
+           <div class="col-sm-4 col-md-3">
                <div class="thumbnail">
-                   <img src="../static/img/clothes.jpg" style="width: 500px;height: 300px" alt="古风饰品">
+                   <img src="../static/img/clothes.jpg" style="width:350px; height: 210px" alt="古风饰品">
                    <div class="caption">
                        <h3>民族服饰</h3>
                        <p>...</p>
@@ -207,9 +215,20 @@
                    </div>
                </div>
            </div>
+           <div class="col-sm-4 col-md-3">
+               <div class="thumbnail">
+                   <img src="../static/img/饰品.jpg" style="width:350px; height: 210px" alt="古风饰品">
+                   <div class="caption">
+                       <h3>朝代变迁</h3>
+                       <p>...</p>
+                       <p><a href="#" qclass="btn btn-primary" role="button">查 看</a></p>
+                   </div>
+               </div>
+           </div>
        </div>
 
-    <script type="text/javascript">
+
+    <!--<script type="text/javascript">
         $('#loginModal'||'#registerModal').on('show.bs.modal', function (event) {
             var button = $(event.relatedTarget)      // Button that triggered the modal
             var recipient = button.data('whatever')     // Extract info from data-* attributes
@@ -219,6 +238,6 @@
             modal.find('.modal-title').text('New message to ' + recipient)
             modal.find('.modal-body input').val(recipient)
         })
-    </script>
+    </script>-->
 </body>
 </html>

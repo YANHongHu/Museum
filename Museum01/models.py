@@ -8,7 +8,7 @@ class User(models.Model):
     user_name = models.CharField(verbose_name="用户名", max_length=16)
     password = models.CharField(verbose_name="密码+MD5加密", max_length=32)
     telephone = models.CharField(verbose_name="电话", max_length=11, unique=True, default="")
-    authority = models.CharField(verbose_name="权限", max_length=20, default="")
+    authority = models.CharField(verbose_name="权限", max_length=20, default="root")
 
 
 # 服装表

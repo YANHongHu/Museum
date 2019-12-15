@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ba26b55-0f77-4f56-8993-f76eb950feb3" name="Default Changelist" comment="完成服饰的动态显示，从数据调取" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="2ba26b55-0f77-4f56-8993-f76eb950feb3" name="Default Changelist" comment="完成服饰的动态显示，从数据调取">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,10 +58,16 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -90,18 +97,6 @@
       <recent name="C:\Users\10783\PycharmProjects\Museum\templates\img" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
     <configuration name="Museum" type="Python.DjangoServer" factoryName="Django server">
       <module name="Museum" />
@@ -129,23 +124,15 @@
     </configuration>
   </component>
   <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@31a783fd" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@31a783fd" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@143fcdf8" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-          </expand>
-          <select />
-        </treeState>
-      </serviceView>
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -201,6 +188,7 @@
       <workItem from="1576125959488" duration="5133000" />
       <workItem from="1576149322927" duration="3323000" />
       <workItem from="1576158477705" duration="2393000" />
+      <workItem from="1576412805203" duration="2582000" />
     </task>
     <task id="LOCAL-00001" summary="修改了登录页面">
       <created>1575105813867</created>
@@ -287,6 +275,21 @@
     <MESSAGE value="重构home" />
     <MESSAGE value="完成服饰的动态显示，从数据调取" />
     <option name="LAST_COMMIT_MESSAGE" value="完成服饰的动态显示，从数据调取" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="360" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576413124753">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="360" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1576413124752" />
+    <state x="360" y="201" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1030@0.23.1792.1030" timestamp="1576412929060" />
+    <state x="397" y="199" key="SettingsEditor" timestamp="1576422179031">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1576422179031" />
+    <state x="573" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1576412815498">
+      <screen x="0" y="23" width="1792" height="1033" />
+    </state>
+    <state x="573" y="372" key="com.intellij.ide.util.TipDialog/0.23.1792.1033@0.23.1792.1033" timestamp="1576412815498" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

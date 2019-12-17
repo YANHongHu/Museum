@@ -87,7 +87,7 @@ def home(request):
     return render(request, 'home.html')
 
 
-def xq_cloth(request):
+def find_cloth(request):
     cloths = []
     if request.method == 'GET':
         costumes = models.Costume.objects.filter(dynasty="先秦")

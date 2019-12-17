@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>先秦</title>
+    <title>秦汉</title>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900" rel="stylesheet">
     <link rel="stylesheet" href="../static/dist/css/bootstrap.css">
     <script src="../static/dist/js/jquery-3.4.0.min.js"></script>
@@ -13,10 +13,8 @@
         body{height: 100%;width: 100%;margin:0;padding:0;line-height: 0}
     </style>
 </head>
-
-
 <body>
-<header>
+    <header>
     <nav class="navbar navbar-inverse navbar-fixed-top" style="margin-bottom: 0">
     <div class="container-fluid ">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -37,15 +35,15 @@
         <li><a href="#">精品展示</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">朝代 <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#" name="dynasty">先秦</a></li>
-                <li><a href="#">秦汉</a></li>
-                <li><a href="#">隋唐</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">两宋</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">元明清</a></li>
-              </ul>
+          <ul class="dropdown-menu">
+            <li><a href="#" name="dynasty">先秦</a></li>
+            <li><a href="#" name="秦汉">秦汉</a></li>
+            <li><a href="#" name="隋唐">隋唐</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#" name="两宋">两宋</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#" name="元明清">元明清</a></li>
+          </ul>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">民族 <span class="caret"></span></a>
@@ -84,7 +82,7 @@
 </header>
 <ol class="breadcrumb" style="margin-top: 80px; background-color: white">
   <li><a href="#">朝代</a></li>
-  <li class="active">先秦</li>
+  <li class="active">秦汉</li>
 </ol>
   <div class="row">
       {% for cloth in cloths %}
@@ -120,4 +118,4 @@
   </ul>
 </nav>
 </body>
-
+</html>

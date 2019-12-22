@@ -2,33 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ba26b55-0f77-4f56-8993-f76eb950feb3" name="Default Changelist" comment="完成服饰的动态显示，从数据调取">
-      <change afterPath="$PROJECT_DIR$/static/dist/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/dist/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/dist/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/dist/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/dist/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/qinghan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Museum.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Museum.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/sui_tang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Museum/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Museum/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Museum/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Museum/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Museum01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Museum01/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/dist/js/jquery-3.2.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/js/jquery-3.2.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/dist/js/jquery-3.4.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/js/jquery-3.4.0.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/firstqin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/firstqin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/qinghan.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/qinghan.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +86,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -217,6 +199,8 @@
       <workItem from="1576412805203" duration="3787000" />
       <workItem from="1576424683454" duration="156000" />
       <workItem from="1576461585336" duration="7414000" />
+      <workItem from="1576729107154" duration="395000" />
+      <workItem from="1576896772814" duration="17237000" />
     </task>
     <task id="LOCAL-00001" summary="修改了登录页面">
       <created>1575105813867</created>
@@ -305,35 +289,35 @@
     <option name="LAST_COMMIT_MESSAGE" value="完成服饰的动态显示，从数据调取" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="360" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576516813188">
+    <state x="360" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576993253744">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="360" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1576516813188" />
+    <state x="360" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1576993253744" />
     <state x="360" y="201" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1030@0.23.1792.1030" timestamp="1576412929060" />
-    <state width="1750" height="276" key="GridCell.Tab.0.bottom" timestamp="1576593907588">
-      <screen x="0" y="23" width="1792" height="1031" />
+    <state width="1750" height="276" key="GridCell.Tab.0.bottom" timestamp="1577012496542">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="276" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1576548774533" />
+    <state width="1750" height="276" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1577012496542" />
     <state width="1750" height="276" key="GridCell.Tab.0.bottom/0.23.1792.1031@0.23.1792.1031" timestamp="1576593907588" />
-    <state width="1750" height="276" key="GridCell.Tab.0.center" timestamp="1576593907587">
-      <screen x="0" y="23" width="1792" height="1031" />
+    <state width="1750" height="276" key="GridCell.Tab.0.center" timestamp="1577012496541">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="276" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1576548774531" />
+    <state width="1750" height="276" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1577012496541" />
     <state width="1750" height="276" key="GridCell.Tab.0.center/0.23.1792.1031@0.23.1792.1031" timestamp="1576593907587" />
-    <state width="1750" height="276" key="GridCell.Tab.0.left" timestamp="1576593907586">
-      <screen x="0" y="23" width="1792" height="1031" />
+    <state width="1750" height="276" key="GridCell.Tab.0.left" timestamp="1577012496540">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="276" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1576548774530" />
+    <state width="1750" height="276" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1577012496540" />
     <state width="1750" height="276" key="GridCell.Tab.0.left/0.23.1792.1031@0.23.1792.1031" timestamp="1576593907586" />
-    <state width="1750" height="276" key="GridCell.Tab.0.right" timestamp="1576593907587">
-      <screen x="0" y="23" width="1792" height="1031" />
+    <state width="1750" height="276" key="GridCell.Tab.0.right" timestamp="1577012496541">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="276" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1576548774532" />
+    <state width="1750" height="276" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1577012496541" />
     <state width="1750" height="276" key="GridCell.Tab.0.right/0.23.1792.1031@0.23.1792.1031" timestamp="1576593907587" />
-    <state x="397" y="204" key="SettingsEditor" timestamp="1576483962348">
-      <screen x="0" y="23" width="1792" height="1017" />
+    <state x="397" y="199" key="SettingsEditor" timestamp="1576900396816">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1576423593979" />
+    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1576900396816" />
     <state x="397" y="204" key="SettingsEditor/0.23.1792.1017@0.23.1792.1017" timestamp="1576483962348" />
     <state x="573" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1576412815498">
       <screen x="0" y="23" width="1792" height="1033" />

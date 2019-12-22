@@ -87,7 +87,7 @@ def home(request):
     return render(request, 'home.html')
 
 
-def find_cloth(request):
+def first_qin(request):
     cloths = []
     if request.method == 'GET':
         costumes = models.Costume.objects.filter(dynasty="先秦")
@@ -102,6 +102,46 @@ def find_cloth(request):
                 single["url_img"] = url_img.url_img
                 cloths.append(single)
             return render(request, "firstqin.html", {"cloths": cloths})
+        else:
+            return render(request, "firstqin.html", {"cloths": cloths})
+
+
+def qing_han(request):
+    cloths = []
+    if request.method == 'GET':
+        costumes = models.Costume.objects.filter(dynasty="秦汉")
+        if costumes is not None:
+            for costume in costumes:
+                print(costume.cs_name)
+                single = {}
+                single["cs_name"] = costume.cs_name
+                single["describe"] = costume.describe
+                print(single)
+                url_img = models.Image.objects.filter(costume_name=costume.cs_name)[0]
+                single["url_img"] = url_img.url_img
+                cloths.append(single)
+            return render(request, "qinghan.html", {"cloths": cloths})
+        else:
+            return render(request, "qinghan.html", {"cloths": cloths})
+
+
+def sui_tang(request):
+    cloths = []
+    if request.method == 'GET':
+        costumes = models.Costume.objects.filter(dynasty="隋唐")
+        if costumes is not None:
+            for costume in costumes:
+                print(costume.cs_name)
+                single = {}
+                single["cs_name"] = costume.cs_name
+                single["describe"] = costume.describe
+                print(single)
+                url_img = models.Image.objects.filter(costume_name=costume.cs_name)[0]
+                single["url_img"] = url_img.url_img
+                cloths.append(single)
+            return render(request, "sui_tang.html", {"cloths": cloths})
+        else:
+            return render(request, "sui_tang.html", {"cloths": cloths})
 
 
 def search_cloth(request):

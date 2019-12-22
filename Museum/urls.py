@@ -24,5 +24,7 @@ urlpatterns = [
     url(r'^login', views.login),
     url(r'^register', views.register),
     url(r'^home', views.home),
-    url(r'^find_cloth', views.find_cloth),
+    url(r'^first_qin', views.first_qin),
+    url(r'^qing_han', views.qing_han),
+    url(r'^sui_tang', views.sui_tang),
 ]

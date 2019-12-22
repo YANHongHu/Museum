@@ -31,18 +31,18 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">主页 <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">主页 <span class="sr-only">(current)</span></a></li>
         <li><a href="#">精品展示</a></li>
-        <li class="dropdown">
+        <li class="dropdown active">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">朝代 <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#" name="dynasty">先秦</a></li>
-            <li><a href="#" name="秦汉">秦汉</a></li>
-            <li><a href="#" name="隋唐">隋唐</a></li>
+            <li><a href="/first_qin/" >先秦</a></li>
+            <li><a href="/qing_han/" >秦汉</a></li>
+            <li><a href="/sui_tang/" >隋唐</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#" name="两宋">两宋</a></li>
+            <li><a href="/laing_song/" >两宋</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#" name="元明清">元明清</a></li>
+            <li><a href="/y_m_q/" >元明清</a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -88,7 +88,7 @@
       {% for cloth in cloths %}
            <div class="col-sm-4 col-md-3">
                <div class="thumbnail">
-                   <img src="{{cloth.url_img}}" style="width:350px; height: 210px" alt="古风饰品">
+                   <img src="{{cloth.url_img}}" style="width:400px; height: 250px;border-radius: 5px" alt="古风饰品">
                    <div class="caption">
                        <h3>{{cs_name}}</h3>
                        <p>{{describe}}</p>

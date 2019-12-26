@@ -90,7 +90,7 @@ def home(request):
 def first_qin(request):
     cloths = []
     if request.method == 'GET':
-        costumes = models.Costume.objects.filter(dynasty="先秦")
+        costumes = models.Costume.objects.filter(dynasty="夏" or "商" or "周" or "春秋战国")
         if costumes is not None:
             for costume in costumes:
                 print(costume.cs_name)
@@ -109,7 +109,7 @@ def first_qin(request):
 def qing_han(request):
     cloths = []
     if request.method == 'GET':
-        costumes = models.Costume.objects.filter(dynasty="秦汉")
+        costumes = models.Costume.objects.filter(dynasty__in=["秦", "西汉", "东汉"])
         if costumes is not None:
             for costume in costumes:
                 print(costume.cs_name)
@@ -120,15 +120,15 @@ def qing_han(request):
                 url_img = models.Image.objects.filter(costume_name=costume.cs_name)[0]
                 single["url_img"] = url_img.url_img
                 cloths.append(single)
-            return render(request, "qinghan.html", {"cloths": cloths})
+            return render(request, "qinghan.html", {'cloths': cloths})
         else:
-            return render(request, "qinghan.html", {"cloths": cloths})
+            return render(request, "qinghan.html", {'cloths': cloths})
 
 
 def sui_tang(request):
     cloths = []
     if request.method == 'GET':
-        costumes = models.Costume.objects.filter(dynasty="隋唐")
+        costumes = models.Costume.objects.filter(dynasty__in="隋" or "唐")
         if costumes is not None:
             for costume in costumes:
                 print(costume.cs_name)
@@ -142,6 +142,44 @@ def sui_tang(request):
             return render(request, "sui_tang.html", {"cloths": cloths})
         else:
             return render(request, "sui_tang.html", {"cloths": cloths})
+
+
+def two_song(request):
+    cloths = []
+    if request.method == 'GET':
+        costumes = models.Costume.objects.filter(dynasty__in=["南宋", "北宋"])
+        if costumes is not None:
+            for costume in costumes:
+                print(costume.cs_name)
+                single = {}
+                single["cs_name"] = costume.cs_name
+                single["describe"] = costume.describe
+                print(single)
+                url_img = models.Image.objects.filter(costume_name=costume.cs_name)[0]
+                single["url_img"] = url_img.url_img
+                cloths.append(single)
+            return render(request, "two_song.html", {'cloths': cloths})
+        else:
+            return render(request, "two_song.html", {'cloths': cloths})
+
+
+def y_m_q(request):
+    cloths = []
+    if request.method == 'GET':
+        costumes = models.Costume.objects.filter(dynasty__in=["元", "明", "清"])
+        if costumes is not None:
+            for costume in costumes:
+                print(costume.cs_name)
+                single = {}
+                single["cs_name"] = costume.cs_name
+                single["describe"] = costume.describe
+                print(single)
+                url_img = models.Image.objects.filter(costume_name=costume.cs_name)[0]
+                single["url_img"] = url_img.url_img
+                cloths.append(single)
+            return render(request, "y_m_q.html", {"cloths": cloths})
+        else:
+            return render(request, "y_m_q.html", {"cloths": cloths})
 
 
 def search_cloth(request):

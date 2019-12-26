@@ -27,4 +27,6 @@ urlpatterns = [
     url(r'^first_qin', views.first_qin),
     url(r'^qing_han', views.qing_han),
     url(r'^sui_tang', views.sui_tang),
+    url(r'^two_song', views.two_song),
+    url(r'^y_m_q', views.y_m_q),
 ]

@@ -11,6 +11,14 @@
 
     <style>
         body{height: 100%;width: 100%;margin:0;padding:0;line-height: 0}
+        .inthreeline {
+            display: -webkit-box !important;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            word-break: break-all;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+        }
     </style>
 </head>
 <body>
@@ -82,16 +90,16 @@
 </header>
 <ol class="breadcrumb" style="margin-top: 80px; background-color: white">
   <li><a href="#">朝代</a></li>
-  <li class="active">秦汉</li>
+  <li class="active">隋唐</li>
 </ol>
   <div class="row">
       {% for cloth in cloths %}
            <div class="col-sm-4 col-md-3">
                <div class="thumbnail">
-                   <img src="{{cloth.url_img}}" style="width:400px; height: 250px;border-radius: 5px" alt="古风饰品">
+                   <img src="{{ cloth.url_img }}"  style="width:400px; height: 250px;border-radius: 5px" alt="古风饰品">
                    <div class="caption">
-                       <h3>{{cs_name}}</h3>
-                       <p>{{describe}}</p>
+                       <h3>{{ cloth.cs_name }}</h3>
+                       <p class="inthreeline">{{ cloth.describe }}</p>
                        <p><a href="#" class="btn btn-primary" role="button">查 看</a></p>
                    </div>
                </div>

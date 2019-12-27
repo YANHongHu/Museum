@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            /* 隐藏body窗口区域滚动条 */
+        }
+    </style>
+    <!--引入three.js三维引擎-->
+    <script src="../../three.js-master/build/three.js"></script>
+    <!-- 引入threejs扩展控件OrbitControls.js -->
+    <script src="../../three.js-master/examples/js/controls/OrbitControls.js"></script>
+    <!-- 引入obj模型加载库OBJLoader.js -->
+    <script src="../../three.js-master/examples/js/loaders/OBJLoader.js"></script>
+</head>
+
+<body>
+    //创建三维场景
+    var scene = new THREE.Scene();
+
+    //obj文件加载
+    var loader = new THREE.OBJLoader();
+    loader.load('./model.obj',function (obj) {
+        
+    }
+
+</body>
+
+</html>

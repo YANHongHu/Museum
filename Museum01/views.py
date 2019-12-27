@@ -182,5 +182,51 @@ def y_m_q(request):
             return render(request, "y_m_q.html", {"cloths": cloths})
 
 
-def search_cloth(request):
-    pass
+def search(request):
+    cloths = []
+    if request.method == "POST":
+        cs_name = request.POST["cs_name"]
+        print(cs_name)
+        costumes = models.Costume.objects.filter(cs_name__contains=cs_name)
+        if costumes is not None:
+            for costume in costumes:
+                print(costume.cs_name)
+                single = {}
+                single["cs_name"] = costume.cs_name
+                single["describe"] = costume.describe
+                print(single)
+                url_img = models.Image.objects.filter(costume_name=costume.cs_name)[0]
+                single["url_img"] = url_img.url_img
+                cloths.append(single)
+            return render(request, "search.html", {"cloths": cloths})
+        else:
+            return render(request, "search.html", {"cloths": cloths})
+
+
+def single_cloth(request):
+    if request.method == "GET":
+        cs_name = request.GET.get("name")
+        print(cs_name)
+        costume = models.Costume.objects.filter(cs_name=cs_name)[0]
+        print(costume)
+        single = {}
+        single['cs_name'] = cs_name
+        single['describe'] = costume.describe
+        single['material'] = costume.material
+        single['texture'] = costume.texture
+        url_mp3 = models.MP3.objects.filter(costume_name=costume.cs_name)[0]
+        single['url_mp3'] = url_mp3.url_mp3
+        url_mp4 = models.MP4.objects.filter(costume_name=costume.cs_name)[0]
+        print(url_mp4.url_mP4)
+        single['url_mp4'] = url_mp4.url_mP4
+        url_image = []
+        url_imgs = models.Image.objects.filter(costume_name=costume.cs_name)
+        for url_img in url_imgs:
+            url_image.append(url_img.url_img)
+        single['url_images'] = url_image
+        return render(request, "single.html", {"cloth": single})
+
+
+def module(request):
+    if request.method == "GET":
+        return render(request, "0.加载obj文件.html")

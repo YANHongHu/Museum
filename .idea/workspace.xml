@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16f741b8-2e68-4d41-a712-62b71b4d6a8d" name="Default Changelist" comment="完成服饰的动态显示，从数据调取">
-      <change afterPath="$PROJECT_DIR$/static/素材/象牙编织锦地嵌花鸟图团扇清/象牙编织锦地嵌花鸟图团扇清.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/single_cloth.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +146,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:museum" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@592748c8" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@351fde95" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -159,7 +160,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2ba26b55-0f77-4f56-8993-f76eb950feb3" name="Default Changelist" comment="" />
+      <changelist id="16f741b8-2e68-4d41-a712-62b71b4d6a8d" name="Default Changelist" comment="完成服饰的动态显示，从数据调取" />
       <created>1569565608240</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -212,6 +213,7 @@
       <workItem from="1576461585336" duration="7414000" />
       <workItem from="1576729107154" duration="395000" />
       <workItem from="1576896772814" duration="17237000" />
+      <workItem from="1577633695308" duration="743000" />
     </task>
     <task id="LOCAL-00001" summary="修改了登录页面">
       <created>1575105813867</created>
@@ -313,31 +315,35 @@
       <screen x="0" y="23" width="1792" height="1024" />
     </state>
     <state x="479" y="137" key="CommitChangelistDialog2/0.23.1792.1024@0.23.1792.1024" timestamp="1577355231936" />
-    <state width="1750" height="342" key="GridCell.Tab.0.bottom" timestamp="1577445248572">
-      <screen x="0" y="23" width="1792" height="1026" />
+    <state width="1204" height="289" key="GridCell.Tab.0.bottom" timestamp="1577633785550">
+      <screen x="0" y="23" width="1792" height="1022" />
     </state>
     <state width="1288" height="277" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1577439463355" />
+    <state width="1204" height="289" key="GridCell.Tab.0.bottom/0.23.1792.1022@0.23.1792.1022" timestamp="1577633785550" />
     <state width="1750" height="277" key="GridCell.Tab.0.bottom/0.23.1792.1024@0.23.1792.1024" timestamp="1577378420749" />
     <state width="1750" height="342" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1577445248572" />
     <state width="1750" height="276" key="GridCell.Tab.0.bottom/0.23.1792.1031@0.23.1792.1031" timestamp="1576593907588" />
-    <state width="1750" height="342" key="GridCell.Tab.0.center" timestamp="1577445248572">
-      <screen x="0" y="23" width="1792" height="1026" />
+    <state width="1204" height="289" key="GridCell.Tab.0.center" timestamp="1577633785549">
+      <screen x="0" y="23" width="1792" height="1022" />
     </state>
     <state width="1288" height="277" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1577439463353" />
+    <state width="1204" height="289" key="GridCell.Tab.0.center/0.23.1792.1022@0.23.1792.1022" timestamp="1577633785549" />
     <state width="1750" height="277" key="GridCell.Tab.0.center/0.23.1792.1024@0.23.1792.1024" timestamp="1577378420748" />
     <state width="1750" height="342" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1577445248572" />
     <state width="1750" height="276" key="GridCell.Tab.0.center/0.23.1792.1031@0.23.1792.1031" timestamp="1576593907587" />
-    <state width="1750" height="342" key="GridCell.Tab.0.left" timestamp="1577445248572">
-      <screen x="0" y="23" width="1792" height="1026" />
+    <state width="1204" height="289" key="GridCell.Tab.0.left" timestamp="1577633785549">
+      <screen x="0" y="23" width="1792" height="1022" />
     </state>
     <state width="1288" height="277" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1577439463353" />
+    <state width="1204" height="289" key="GridCell.Tab.0.left/0.23.1792.1022@0.23.1792.1022" timestamp="1577633785549" />
     <state width="1750" height="277" key="GridCell.Tab.0.left/0.23.1792.1024@0.23.1792.1024" timestamp="1577378420748" />
     <state width="1750" height="342" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1577445248572" />
     <state width="1750" height="276" key="GridCell.Tab.0.left/0.23.1792.1031@0.23.1792.1031" timestamp="1576593907586" />
-    <state width="1750" height="342" key="GridCell.Tab.0.right" timestamp="1577445248572">
-      <screen x="0" y="23" width="1792" height="1026" />
+    <state width="1204" height="289" key="GridCell.Tab.0.right" timestamp="1577633785550">
+      <screen x="0" y="23" width="1792" height="1022" />
     </state>
     <state width="1288" height="277" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1577439463354" />
+    <state width="1204" height="289" key="GridCell.Tab.0.right/0.23.1792.1022@0.23.1792.1022" timestamp="1577633785550" />
     <state width="1750" height="277" key="GridCell.Tab.0.right/0.23.1792.1024@0.23.1792.1024" timestamp="1577378420749" />
     <state width="1750" height="342" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1577445248572" />
     <state width="1750" height="276" key="GridCell.Tab.0.right/0.23.1792.1031@0.23.1792.1031" timestamp="1576593907587" />

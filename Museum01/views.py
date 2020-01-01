@@ -6,14 +6,13 @@ import string
 from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render
 
-
 # Create your views here.
 from Museum01 import models
 
 
 # 登录函数
 def login(request):
-    if request.method == 'POST': 
+    if request.method == 'POST':
         # 获取用户名和密码
         telephone = request.POST.get('telephone')
         print(telephone)
@@ -69,7 +68,7 @@ def register(request):
             # 生成一个md5对象
             m = hashlib.md5()
             # 用字符串对密码进行重新编码
-            new_password = s+password+s
+            new_password = s + password + s
             # 将str编码至bytes
             b = new_password.encode(encoding='utf-8')
             m.update(b)
@@ -214,17 +213,28 @@ def single_cloth(request):
         single['describe'] = costume.describe
         single['material'] = costume.material
         single['texture'] = costume.texture
-        url_mp3 = models.MP3.objects.filter(costume_name=costume.cs_name)[0]
-        single['url_mp3'] = url_mp3.url_mp3
-        url_mp4 = models.MP4.objects.filter(costume_name=costume.cs_name)[0]
-        print(url_mp4.url_mP4)
-        single['url_mp4'] = url_mp4.url_mP4
         url_image = []
         url_imgs = models.Image.objects.filter(costume_name=costume.cs_name)
         for url_img in url_imgs:
             url_image.append(url_img.url_img)
         single['url_images'] = url_image
-        return render(request, "single.html", {"cloth": single})
+        try:
+            url_mp3 = models.MP3.objects.filter(costume_name=costume.cs_name)[0]
+            url_mp4 = models.MP4.objects.filter(costume_name=costume.cs_name)[0]
+            print(url_mp4.url_mP4)
+            print(url_mp3.url_mp3)
+            if url_mp3:
+                single['url_mp3'] = url_mp3.url_mp3
+            else:
+                single['url_mp3'] = None
+            if url_mp4:
+                single['url_mp4'] = url_mp4.url_mP4
+            else:
+                single['url_mp4'] = None
+        except:
+            return render(request, "single.html", {"cloth": single})
+        else:
+            return render(request, "single.html", {"cloth": single})
 
 
 def module(request):

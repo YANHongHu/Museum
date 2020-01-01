@@ -204,13 +204,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<h5>影视资料<a href="#">click for watch</a></h5>
                     <video width="320" height="240" controls>
                       <source src="{{ cloth.url_mp4 }}" type="video/mp4">
-                      <source src="movie.ogg" type="video/ogg">
-                      <source src="movie.webm" type="video/webm">
-                      <object data="movie.mp4" width="320" height="240">
-                        <embed src="movie.swf" width="320" height="240">
+                      <source src="{{ cloth.url_mp4 }}" type="video/ogg">
+                      <source src="{{ cloth.url_mp4 }}" type="video/avi">
+                      <source src="{{ cloth.url_mp4 }}" type="video/webm">
+                      <object data="{{ cloth.url_mp4 }}" width="320" height="240">
+                        <embed src="{{ cloth.url_mp4 }}" width="320" height="240">
                       </object>
                     </video>
-                    <h5>音频资料<a href="{{ cloth.url_mp3 }}">click for listen</a></h5>
+                    <h5>音频资料<a href="#">click for listen</a></h5>
+                    <audio controls>
+                      <source src="{{ cloth.url_mp3 }}" type="audio/mpeg">
+                      <source src="{{ cloth.url_mp3 }}" type="audio/ogg">
+                      <embed height="50" width="100" src="{{ cloth.url_mp3 }}">
+                    </audio>
 					<div class="available">
 						<h4>Available Options :</h4>
 						<div class="clearfix"></div>
@@ -268,8 +274,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			            fit: true   // 100% fit in a container
 			        });
 			    });
-			   </script>	
-
+			   </script>
 	</div>
 	</div>
 	<!---->

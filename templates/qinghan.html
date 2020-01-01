@@ -39,8 +39,8 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">主页 <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">精品展示</a></li>
+        <li><a href="/home/">主页 <span class="sr-only">(current)</span></a></li>
+        <li><a href="/module/">精品展示</a></li>
         <li class="dropdown active">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">朝代 <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -162,7 +162,7 @@
                    <div class="caption">
                        <h3>{{ cloth.cs_name }}</h3>
                        <p class="inthreeline">{{ cloth.describe }}</p>
-                       <p><a href="#" class="btn btn-primary" role="button">查 看</a></p>
+                       <p><a href="/single_cloth?name={{ cloth.cs_name }}" class="btn btn-primary" role="button">查 看</a></p>
                    </div>
                </div>
            </div>

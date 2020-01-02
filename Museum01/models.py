@@ -18,11 +18,12 @@ class Costume(models.Model):
     # 1为女，0为男
     gender = models.CharField(verbose_name="性别", max_length=1, default="1")
     describe = models.CharField(verbose_name="描述", max_length=512, null=True)
-    material = models.CharField(verbose_name="材质", max_length=16, null=True)
-    texture = models.CharField(verbose_name="纹理", max_length=32, null=True)
+    material = models.CharField(verbose_name="材质", max_length=256, null=True)
+    texture = models.CharField(verbose_name="纹理", max_length=256, null=True)
     dynasty = models.CharField(verbose_name="朝代", max_length=16, null=True)
     cs_sort = models.CharField(verbose_name="服装类别", max_length=32)
     nation = models.CharField(verbose_name="民族", max_length=16, null=True)
+    story =  models.CharField(verbose_name="传说故事", max_length=1024, null=True)
 
 
 # # 多媒体资源表

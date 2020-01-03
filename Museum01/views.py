@@ -89,7 +89,7 @@ def home(request):
 def first_qin(request):
     cloths = []
     if request.method == 'GET':
-        costumes = models.Costume.objects.filter(dynasty="夏" or "商" or "周" or "春秋战国")
+        costumes = models.Costume.objects.filter(dynasty__in=["夏", "商", "周", "春秋战国"])
         if costumes is not None:
             for costume in costumes:
                 print(costume.cs_name)
@@ -127,7 +127,7 @@ def qing_han(request):
 def sui_tang(request):
     cloths = []
     if request.method == 'GET':
-        costumes = models.Costume.objects.filter(dynasty__in="隋" or "唐")
+        costumes = models.Costume.objects.filter(dynasty__in=["隋", "唐"])
         if costumes is not None:
             for costume in costumes:
                 print(costume.cs_name)

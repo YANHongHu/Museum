@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="16f741b8-2e68-4d41-a712-62b71b4d6a8d" name="Default Changelist" comment="完成服饰的动态显示，从数据调取">
       <change beforePath="$PROJECT_DIR$/static/素材/象牙编织锦地嵌花鸟图团扇清/寻宝中华丨象牙通雕花卉纹团扇 .mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/exhibit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/retrieval.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/test_carousel.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +141,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:museum" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@26c073ba" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@7a697878" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -209,6 +213,7 @@
       <workItem from="1577863731064" duration="13135000" />
       <workItem from="1578028060484" duration="1456000" />
       <workItem from="1578111059169" duration="75000" />
+      <workItem from="1578233422064" duration="696000" />
     </task>
     <task id="LOCAL-00001" summary="修改了登录页面">
       <created>1575105813867</created>
@@ -312,10 +317,11 @@
     <state x="534" y="341" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1020@0.23.1792.1020" timestamp="1577951659136" />
     <state x="534" y="343" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1026@0.23.1792.1026" timestamp="1577811640255" />
     <state x="534" y="343" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1028@0.23.1792.1028" timestamp="1577956324706" />
-    <state x="634" y="289" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577352780663">
-      <screen x="0" y="23" width="1792" height="1024" />
+    <state x="634" y="291" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578239311725">
+      <screen x="0" y="23" width="1792" height="1030" />
     </state>
     <state x="634" y="289" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1792.1024@0.23.1792.1024" timestamp="1577352780663" />
+    <state x="634" y="291" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1792.1030@0.23.1792.1030" timestamp="1578239311725" />
     <state x="479" y="137" key="CommitChangelistDialog2" timestamp="1577355231936">
       <screen x="0" y="23" width="1792" height="1024" />
     </state>

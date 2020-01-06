@@ -19,7 +19,7 @@ def login(request):
         password = request.POST.get('password')
         print(password)
         # 尝试在用户表中查找此用户,若不存在则返回错误信息
-        user = models.User.objects.filter(telephone=telephone)[0]
+        user = models.User.objects.filter(telephone=telephone).first()
         print(user)
         if user:
             # 存在则进行密码匹配，取出随机字符串
@@ -40,7 +40,10 @@ def login(request):
                 if new_password_md5 == user.password:
                     if user.authority == "root":
                         print(user.authority == "root")
-                        return render(request, 'home_root.html')
+                        root = {}
+                        root['user_name'] = user.user_name
+                        root['head_img'] = user.head_img
+                        return render(request, 'home_root.html', {'root': root})
                     else:
                         return render(request, 'home.html')
                 else:
@@ -240,3 +243,5 @@ def single_cloth(request):
 def module(request):
     if request.method == "GET":
         return render(request, "0.加载obj文件.html")
+
+

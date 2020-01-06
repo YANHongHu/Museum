@@ -9,6 +9,7 @@ class User(models.Model):
     password = models.CharField(verbose_name="密码+MD5加密", max_length=32)
     telephone = models.CharField(verbose_name="电话", max_length=11, unique=True, default="")
     authority = models.CharField(verbose_name="权限", max_length=20, default="root")
+    head_img = models.CharField(verbose_name="头像", max_length=32, default="../static/images/faa.jpg")
 
 
 # 服装表

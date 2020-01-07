@@ -2,19 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>管理员主页</title>
+    <title>上传服饰</title>
+    <link href="../static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../static/js/jquery.min.js"></script>
+    <!-- Custom Theme files -->
+    <!--theme-style-->
+    <link href="../static/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!--//theme-style-->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900" rel="stylesheet">
     <link rel="stylesheet" href="../static/dist/css/bootstrap.css">
-    <!--//fonts-->
-    <link rel="stylesheet" href="../static/css/etalage.css">
-    <script src="../static/dist/js/jquery-3.4.0.min.js"></script>
-    <script src="../static/dist/js/bootstrap.min.js"></script>
-    <script src="../static/js/jquery.etalage.min.js"></script>
+<!--//fonts-->
+     <link rel="stylesheet" href="../static/css/etalage.css">
+     <script src="../static/dist/js/jquery-3.4.0.min.js"></script>
+     <script src="../static/dist/js/bootstrap.min.js"></script>
+     <script src="../static/js/jquery.etalage.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        function t(){
+         var e = $(".footer");//获取页脚div的对象
+         var h = e.offset().top + e.height() ;//获取页脚偏移量加页脚高度的值
+        //判断页脚div底部到页面顶端的实际距离是否小于页面可见区域高度
+        if(h < document.body.clientHeight){
+        //当页面刚好可以包容所有内容不需要下拉时直接加上个定位就是了，当然这里也可以用绝对和相对属性
+        //具体设置根据你实际情况来定吧
+          $(".footer").css({position:"fixed",bottom:"0px"});
+          return;
+        }
+
+        function t2(){
+          var a = $(document).scrollTop()+document.documentElement.clientHeight;//获取页面滑动偏移量加页面可见区域的高度
+        //判断页脚div底部到页面顶端的实际距离是否小于页面滑动偏移量加页面可见区域高度
+        if(a >= h){
+        //如果页面内容太多，需要下滑展示的时候，给页脚一个固定定位属性
+        $(".footer").css({position:"fixed", bottom:"0px"});
+        }else{
+        //当页面重新上滑页脚需要被隐藏的时候移除它的定位属性，这样不论何时，它肯定是被页面撑起来固定到底部展示的。
+         $(".footer").removeAttr("style");
+        }
+        }
+        t2();
+        //在页面大小改变时触发方法t2
+         $(document).resize(t2);
+         //在页面滑动时触发方法t2
+         $(document).scroll(t2);
+        }
+        //直接运行方法t
+        t();
+        });
+   </script>
+
+    <style>
+        body{height: 100%;width: 100%;margin:0;padding:0;line-height: 0}
+    </style>
 </head>
 <body>
-    <header >
+ <header >
     <nav class="navbar navbar-inverse navbar-fixed-top" style="margin-bottom: 0">
     <div class="container-fluid ">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -75,7 +120,7 @@
           </a>
           <ul class="dropdown-menu">
             <li><a href="#" data-toggle="modal">我的信息</a></li>
-            <li><a href="/add_cloth"  data-toggle="modal">上传资源</a></li>
+            <li><a href="/add_cloth/"  data-toggle="modal">上传资源</a></li>
             <li role="separator" class="divider"></li>
             <li><a href="/home/">退出</a></li>
           </ul>
@@ -85,88 +130,43 @@
   </div><!-- /.container-fluid -->
 </nav>
 </header>
-       <div id="carousel" class="carousel slide" data-ride="carousel" style="margin-bottom: 5px">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel" data-slide-to="1"></li>
-                <li data-target="#carousel" data-slide-to="2"></li>
-            </ol>
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active" style="text-align: center">
-                    <img src="../static/img/banner2.jpg" style="width: 1900px; height: 525px" class="center-block img-responsive"  alt="first" data-holder-rendered="true">
-                    <div class="carousel-caption">
-                        ...
-                    </div>
-                </div>
-                <div class="item" style="text-align: center">
-                    <img src="../static/img/banner1.JPG" style="width: 1900px; height: 525px" class="center-block img-responsive" alt="second" data-holder-rendered="true">
-                    <div class="carousel-caption">
-                        ...
-                    </div>
-                </div>
-                <div class="item" style="text-align: center">
-                    <img src="../static/img/故宫.雪.jpg" style="width: 1900px; height: 525px" class="center-block img-responsive"  alt="third" data-holder-rendered="true">
-                    <div class="carousel-caption">
-                        ...
-                    </div>
-                </div>
+     <div style="margin-top: 200px; height: 100%; width: 100%">
+       <form class="form-horizontal" method="post" action="/add/">
+          <div class="form-group">
+            <label for="inputEmail3" class="col-sm-5 control-label">服饰名称</label>
+            <div class="col-sm-2">
+              <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
             </div>
+          </div>
+          <div class="form-group">
+            <label for="inputPassword3" class="col-sm-5 control-label">朝代</label>
+            <div class="col-sm-2">
+              <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputPassword3" class="col-sm-5 control-label">名族</label>
+            <div class="col-sm-2">
+              <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputFile" class="col-sm-5 control-label">File input</label>
+            <div class="col-sm-2">
+                <input type="file" id="exampleInputFile" style="height: 30px">
+                <p class="help-block">Example block-level help text here.</p>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-5 col-sm-5">
+              <button type="submit" class="btn btn-primary">上 传</button>
+              <a class="btn btn-danger" href="#" role="button">取 消</a>
+            </div>
+          </div>
+        </form>
+     </div>
 
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            </a>
-            <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            </a>
-       </div>
-       <div class="row">
-           <div class="col-sm-4 col-md-3">
-               <div class="thumbnail">
-                   <img src="../static/img/饰品.jpg" style="width:350px; height: 210px" alt="古风饰品">
-                   <div class="caption">
-                       <h3>古风饰品</h3>
-                       <p>...</p>
-                       <p><a href="#" class="btn btn-primary" role="button">查 看</a></p>
-                   </div>
-               </div>
-           </div>
-           <div class="col-sm-4 col-md-3">
-               <div class="thumbnail">
-                   <img src="../static/img/民族服饰.png" style="width:350px; height: 210px" alt="古风饰品">
-                   <div class="caption">
-                       <h3>精品展示</h3>
-                       <p>...</p>
-                       <p><a href="/module/" class="btn btn-primary" role="button">查 看</a></p>
-                   </div>
-               </div>
-           </div>
-           <div class="col-sm-4 col-md-3">
-               <div class="thumbnail">
-                   <img src="../static/img/clothes.jpg" style="width:350px; height: 210px" alt="古风饰品">
-                   <div class="caption">
-                       <h3>民族服饰</h3>
-                       <p>...</p>
-                       <p>
-                           <a href="#" class="btn btn-primary" role="button">查 看</a>
-                       </p>
-                   </div>
-               </div>
-           </div>
-           <div class="col-sm-4 col-md-3">
-               <div class="thumbnail">
-                   <img src="../static/img/饰品.jpg" style="width:350px; height: 210px" alt="古风饰品">
-                   <div class="caption">
-                       <h3>朝代变迁</h3>
-                       <p>...</p>
-                       <p><a href="#" class="btn btn-primary" role="button">查 看</a></p>
-                   </div>
-               </div>
-           </div>
-       </div>
-    <div class="footer">
+    <div class="footer" style="width: 100%">
 		<div class="container">
 				<div class="footer-class">
 				<div class="class-footer">
@@ -187,7 +187,5 @@
 			 	</div>
 		 </div>
 	</div>
-
-    <script type="text/javascript"></script>
 </body>
 </html>

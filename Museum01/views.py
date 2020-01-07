@@ -245,3 +245,10 @@ def module(request):
         return render(request, "0.加载obj文件.html")
 
 
+def add_cloth(request):
+    if request.method == "GET":
+        return render(request, "add_cloth.html")
+
+
+def add(request):
+    pass

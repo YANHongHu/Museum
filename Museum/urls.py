@@ -32,4 +32,5 @@ urlpatterns = [
     url(r'^module', views.module),
     url(r'^search', views.search),
     url(r'^single_cloth', views.single_cloth),
+    url(r'^add_cloth', views.add_cloth),
 ]

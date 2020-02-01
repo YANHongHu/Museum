@@ -33,23 +33,23 @@
         }
 
         function t2(){
-          var a = $(document).scrollTop()+document.documentElement.clientHeight;//获取页面滑动偏移量加页面可见区域的高度
-        //判断页脚div底部到页面顶端的实际距离是否小于页面滑动偏移量加页面可见区域高度
-        if(a >= h){
-        //如果页面内容太多，需要下滑展示的时候，给页脚一个固定定位属性
-        $(".footer").css({position:"fixed", bottom:"0px"});
-        }else{
-        //当页面重新上滑页脚需要被隐藏的时候移除它的定位属性，这样不论何时，它肯定是被页面撑起来固定到底部展示的。
-         $(".footer").removeAttr("style");
-        }
-        }
-        t2();
-        //在页面大小改变时触发方法t2
-         $(document).resize(t2);
-         //在页面滑动时触发方法t2
-         $(document).scroll(t2);
-        }
-        //直接运行方法t
+                var a = $(document).scrollTop()+document.documentElement.clientHeight;//获取页面滑动偏移量加页面可见区域的高度
+                //判断页脚div底部到页面顶端的实际距离是否小于页面滑动偏移量加页面可见区域高度
+                if(a >= h){
+                //如果页面内容太多，需要下滑展示的时候，给页脚一个固定定位属性
+                $(".footer").css({position:"fixed", bottom:"0px"});
+                }else{
+                //当页面重新上滑页脚需要被隐藏的时候移除它的定位属性，这样不论何时，它肯定是被页面撑起来固定到底部展示的。
+                $(".footer").removeAttr("style");
+                }
+            }
+            t2();
+            //在页面大小改变时触发方法t2
+             $(document).resize(t2);
+             //在页面滑动时触发方法t2
+             $(document).scroll(t2);
+            }
+         //直接运行方法t
         t();
         });
    </script>

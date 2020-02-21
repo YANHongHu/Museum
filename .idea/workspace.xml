@@ -4,7 +4,6 @@
     <list default="true" id="16f741b8-2e68-4d41-a712-62b71b4d6a8d" name="Default Changelist" comment="完成服饰的动态显示，从数据调取">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/素材/象牙编织锦地嵌花鸟图团扇清/寻宝中华丨象牙通雕花卉纹团扇 .mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/add_cloth.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add_cloth.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,23 +21,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="museum" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="museum" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="museum" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="Museum: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
@@ -139,12 +122,12 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:museum" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@7baf45d3" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@5cbabe9a" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:museum" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@42ec8a23" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@3c018170" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -220,6 +203,11 @@
       <workItem from="1578241230291" duration="14967000" />
       <workItem from="1578584319441" duration="3081000" />
       <workItem from="1578624004338" duration="2598000" />
+      <workItem from="1580975283203" duration="241000" />
+      <workItem from="1580982961898" duration="616000" />
+      <workItem from="1581557982061" duration="1061000" />
+      <workItem from="1581753531137" duration="13000" />
+      <workItem from="1581987559402" duration="1505000" />
     </task>
     <task id="LOCAL-00001" summary="修改了登录页面">
       <created>1575105813867</created>
@@ -336,10 +324,10 @@
       <screen x="0" y="23" width="1792" height="1024" />
     </state>
     <state x="100" y="125" width="1592" height="820" key="DiffContextDialog/0.23.1792.1024@0.23.1792.1024" timestamp="1577871501184" />
-    <state width="1750" height="305" key="GridCell.Tab.0.bottom" timestamp="1578396884852">
+    <state width="1750" height="348" key="GridCell.Tab.0.bottom" timestamp="1581753395742">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="305" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1578396884852" />
+    <state width="1750" height="348" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1581753395742" />
     <state width="1750" height="240" key="GridCell.Tab.0.bottom/0.23.1792.1020@0.23.1792.1020" timestamp="1577698309188" />
     <state width="1750" height="239" key="GridCell.Tab.0.bottom/0.23.1792.1022@0.23.1792.1022" timestamp="1577879514513" />
     <state width="1750" height="239" key="GridCell.Tab.0.bottom/0.23.1792.1024@0.23.1792.1024" timestamp="1577953018252" />
@@ -347,10 +335,10 @@
     <state width="1750" height="267" key="GridCell.Tab.0.bottom/0.23.1792.1030@0.23.1792.1030" timestamp="1578239381583" />
     <state width="1750" height="276" key="GridCell.Tab.0.bottom/0.23.1792.1031@0.23.1792.1031" timestamp="1576593907588" />
     <state width="1750" height="274" key="GridCell.Tab.0.bottom/0.23.1792.1033@0.23.1792.1033" timestamp="1578063896373" />
-    <state width="1750" height="305" key="GridCell.Tab.0.center" timestamp="1578396884851">
+    <state width="1750" height="348" key="GridCell.Tab.0.center" timestamp="1581753395740">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="305" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1578396884851" />
+    <state width="1750" height="348" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1581753395740" />
     <state width="1750" height="240" key="GridCell.Tab.0.center/0.23.1792.1020@0.23.1792.1020" timestamp="1577698309188" />
     <state width="1750" height="239" key="GridCell.Tab.0.center/0.23.1792.1022@0.23.1792.1022" timestamp="1577879514512" />
     <state width="1750" height="239" key="GridCell.Tab.0.center/0.23.1792.1024@0.23.1792.1024" timestamp="1577953018251" />
@@ -358,10 +346,10 @@
     <state width="1750" height="267" key="GridCell.Tab.0.center/0.23.1792.1030@0.23.1792.1030" timestamp="1578239381583" />
     <state width="1750" height="276" key="GridCell.Tab.0.center/0.23.1792.1031@0.23.1792.1031" timestamp="1576593907587" />
     <state width="1750" height="274" key="GridCell.Tab.0.center/0.23.1792.1033@0.23.1792.1033" timestamp="1578063896372" />
-    <state width="1750" height="305" key="GridCell.Tab.0.left" timestamp="1578396884850">
+    <state width="1750" height="348" key="GridCell.Tab.0.left" timestamp="1581753395739">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="305" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1578396884850" />
+    <state width="1750" height="348" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1581753395739" />
     <state width="1750" height="240" key="GridCell.Tab.0.left/0.23.1792.1020@0.23.1792.1020" timestamp="1577698309188" />
     <state width="1750" height="239" key="GridCell.Tab.0.left/0.23.1792.1022@0.23.1792.1022" timestamp="1577879514512" />
     <state width="1750" height="239" key="GridCell.Tab.0.left/0.23.1792.1024@0.23.1792.1024" timestamp="1577953018250" />
@@ -369,10 +357,10 @@
     <state width="1750" height="267" key="GridCell.Tab.0.left/0.23.1792.1030@0.23.1792.1030" timestamp="1578239381582" />
     <state width="1750" height="276" key="GridCell.Tab.0.left/0.23.1792.1031@0.23.1792.1031" timestamp="1576593907586" />
     <state width="1750" height="274" key="GridCell.Tab.0.left/0.23.1792.1033@0.23.1792.1033" timestamp="1578063896371" />
-    <state width="1750" height="305" key="GridCell.Tab.0.right" timestamp="1578396884852">
+    <state width="1750" height="348" key="GridCell.Tab.0.right" timestamp="1581753395741">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="305" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1578396884852" />
+    <state width="1750" height="348" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1581753395741" />
     <state width="1750" height="240" key="GridCell.Tab.0.right/0.23.1792.1020@0.23.1792.1020" timestamp="1577698309188" />
     <state width="1750" height="239" key="GridCell.Tab.0.right/0.23.1792.1022@0.23.1792.1022" timestamp="1577879514513" />
     <state width="1750" height="239" key="GridCell.Tab.0.right/0.23.1792.1024@0.23.1792.1024" timestamp="1577953018251" />
@@ -400,10 +388,10 @@
     </state>
     <state width="1750" height="342" key="GridCell.Tab.1.right/0.23.1792.1024@0.23.1792.1024" timestamp="1577358059136" />
     <state width="1750" height="342" key="GridCell.Tab.1.right/0.23.1792.1026@0.23.1792.1026" timestamp="1577445248573" />
-    <state x="397" y="199" key="SettingsEditor" timestamp="1578386717784">
+    <state x="397" y="199" key="SettingsEditor" timestamp="1581317579061">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1578386717784" />
+    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1581317579061" />
     <state x="397" y="204" key="SettingsEditor/0.23.1792.1017@0.23.1792.1017" timestamp="1576483962348" />
     <state x="573" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1576412815498">
       <screen x="0" y="23" width="1792" height="1033" />

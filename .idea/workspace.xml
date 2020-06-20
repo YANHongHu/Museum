@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16f741b8-2e68-4d41-a712-62b71b4d6a8d" name="Default Changelist" comment="完成服饰的动态显示，从数据调取">
-      <change beforePath="$PROJECT_DIR$/static/手镯3D预览/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/手镯3D预览/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/素材/象牙编织锦地嵌花鸟图团扇清/寻宝中华丨象牙通雕花卉纹团扇 .mp3" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,7 +184,7 @@
       <workItem from="1590546127494" duration="11000" />
       <workItem from="1590556196527" duration="8735000" />
       <workItem from="1591418109150" duration="542000" />
-      <workItem from="1592633837893" duration="306000" />
+      <workItem from="1592633837893" duration="648000" />
     </task>
     <task id="LOCAL-00001" summary="修改了登录页面">
       <created>1575105813867</created>

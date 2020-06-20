@@ -241,8 +241,35 @@ def single_cloth(request):
 
 
 def module(request):
+    cloths = []
+    if request.method == 'GET':
+        costumes = models.Module.objects.filter()
+        if costumes is not None:
+            for costume in costumes:
+                print(costume.md_name)
+                single = {}
+                single["cs_name"] = costume.md_name
+                single["describe"] = costume.describe
+                print(single)
+                single["url_img"] = costume.url_img
+                cloths.append(single)
+            return render(request, "module.html", {"cloths": cloths})
+        else:
+            return render(request, "module.html", {"cloths": cloths})
+
+
+def single_module(request):
     if request.method == "GET":
-        return render(request, "0.加载obj文件.html")
+        md_name = request.GET.get("name")
+        print(md_name)
+        single = {}
+        module = models.Module.objects.filter(md_name=md_name)[0]
+        single["md_name"] = md_name
+        single["url_md"] = module.url_md
+        single["url_grain"] = module.url_grain
+        return render(request, "0.加载obj文件.html", {"module": single})
+
+
 
 
 def add_cloth(request):

@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>第一个three.js文件_WebGL三维场景</title>
+  <title>{{ module.md_name }}</title>
   <style>
     body {
       margin: 0;
@@ -29,11 +29,11 @@
      * OBJ文件加载  只加载obj文件中的几何信息，不加载材质文件.mtl
      */
     var loader = new THREE.OBJLoader();
-    loader.load('../static/手镯3D预览/模型文件加载/手镯在线预览/model.obj',function (obj) {
+    loader.load('{{ module.url_md }}',function (obj) {
       // 控制台查看返回结构：包含一个网格模型Mesh的组Group
       // console.log(obj);
       //加载纹理贴图
-      var texture = new THREE.TextureLoader().load('../static/手镯3D预览/模型文件加载/手镯在线预览/texture1.png');
+      var texture = new THREE.TextureLoader().load('{{ module.url_grain }}');
       // 基础Basic网格材质，不受光照影响   Phong网格材质受光照影响
       obj.children[0].material= new THREE.MeshBasicMaterial({
         map:texture,//设置颜色纹理贴图

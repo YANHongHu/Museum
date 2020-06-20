@@ -60,13 +60,14 @@ class MP4(models.Model):
     url_mP4 = models.CharField(verbose_name="视频文件路径", max_length=128)
 
 
-# VR资源表
-class VR(models.Model):
-    vr_id = models.AutoField(verbose_name="VR资源id，自增", primary_key=True)
-    vr_name = models.CharField(verbose_name="音频资源名称", max_length=32)
+# 模型资源表
+class Module(models.Model):
+    md_id = models.AutoField(verbose_name="模型资源id，自增", primary_key=True)
+    md_name = models.CharField(verbose_name="模型资源名称", max_length=32)
+    url_img = models.CharField(verbose_name="图片文件路径", max_length=128, default='/static/img/clothes.jpg')
     describe = models.CharField(verbose_name="资源描述", max_length=256)
-    costume_name = models.CharField(verbose_name="所属服装", max_length=32)
-    url_vr = models.CharField(verbose_name="vr文件路径", max_length=128)
+    url_md = models.CharField(verbose_name="模型文件路径", max_length=128)
+    url_grain = models.CharField(verbose_name="贴图文件路径", max_length=128)
 
 
 # User_str用户密文表

@@ -30,6 +30,7 @@ urlpatterns = [
     url(r'^two_song', views.two_song),
     url(r'^y_m_q', views.y_m_q),
     url(r'^module', views.module),
+    url(r'^single_module', views.single_module),
     url(r'^search', views.search),
     url(r'^single_cloth', views.single_cloth),
     url(r'^add_cloth', views.add_cloth),
